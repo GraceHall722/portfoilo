@@ -1,9 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: { 1: "#282c33" },
+      },
+      fontFamily: {
+        "fira-code": ["Fira Code", "monospace"],
+      },
+    },
   },
   plugins: [],
-}
-
+};
