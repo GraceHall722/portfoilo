@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: { 1: "#282c33" },
+        primary: { 1: "#0A192F" },
+        // textColor: { 1: "#ABB2BF" },
+        textColor: { 1: "#9CA3AF" },
       },
       fontFamily: {
         "fira-code": ["Fira Code", "monospace"],
@@ -13,3 +15,4 @@ export default {
   },
   plugins: [],
 };
+// 31304D
