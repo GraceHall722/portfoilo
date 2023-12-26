@@ -35,8 +35,10 @@ const Home = () => {
           and <span className="text-[#FFBF00]">Technical Writer..</span>
         </div>
         <p className="my-[10px] text-[#939ba8]">
-          He crafts responsive websites where <br />
-          technologies meet creativity.
+          Skilled blockchain developer specializing in <br />
+          secure smart contract design and DApp development.
+          <br />
+          Proficient in Ethereum and other blockchain networks.
         </p>
 
         <Link to="/contact-me">
