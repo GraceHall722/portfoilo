@@ -1,5 +1,11 @@
+import { FixedSideSocials } from "../components";
+
 const Portfolio = () => {
-  return <div>Portfolio</div>;
+  return (
+    <section>
+      <FixedSideSocials />
+    </section>
+  );
 };
 
 export default Portfolio;
