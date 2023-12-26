@@ -12,7 +12,14 @@ const Navbar = () => {
     <nav className="flex font-fira-code items-center justify-between">
       <NavLink to="/" onClick={() => setActiveLink("/")}>
         <div className="flex ml-[150px] items-center justify-between mt-[50px]">
-          <img src={Logo} />
+          <img
+            src={Logo}
+            style={{
+              filter:
+                "brightness(0) saturate(100%) invert(98%) sepia(93%) saturate(841%) hue-rotate(75deg) brightness(105%) contrast(123%)",
+            }}
+          />
+
           <h3 className="text-white text text-bold text-[25px] mx-3 hover:text-[#64FFDB]">
             Patrick
           </h3>
