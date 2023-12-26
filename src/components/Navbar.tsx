@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { navlinks } from "../constants";
 import { NavLink, useLocation } from "react-router-dom";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 import { Logo } from "../assets";
 
@@ -11,12 +10,6 @@ const Navbar = () => {
 
   return (
     <nav className="flex font-fira-code items-center justify-between">
-          <div style={{ position: 'absolute', top: 0, left: 0, height: '100%', borderRight: '1px solid black' }} />
-      <div style={{ position: "absolute", top: 10, left: 10 }}>
-        <FaFacebook size={24} />
-        <FaTwitter size={24} />
-        <FaInstagram size={24} />
-      </div>
       <NavLink to="/" onClick={() => setActiveLink("/")}>
         <div className="flex ml-[150px] items-center justify-between mt-[50px]">
           <img src={Logo} />
@@ -44,9 +37,15 @@ const Navbar = () => {
               </NavLink>
             </li>
           ))}
+          <button className="border border-[#64FFDB] w-auto transform transition duration-500 ease-in-out hover:scale-110">
+            <a href="src/constants/0x0se.pdf" download>
+              <div className="mx-[20px] text-white">Resume</div>
+            </a>
+          </button>
         </ul>
       </div>
     </nav>
+    // https://github.com/Patrick-Ehimen/typescript_dev_portfolio/blob/main/src/constants/0x0se.pdf
   );
 };
 
