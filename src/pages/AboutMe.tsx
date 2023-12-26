@@ -1,5 +1,11 @@
+import { FixedSideSocials } from "../components";
+
 const AboutMe = () => {
-  return <div>AboutMe</div>;
+  return (
+    <section>
+      <FixedSideSocials />
+    </section>
+  );
 };
 
 export default AboutMe;
