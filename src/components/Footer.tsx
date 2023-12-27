@@ -12,7 +12,7 @@ const Footer = () => {
   const [isHoveredSubstack, setIsHoveredSubstack] = useState(false);
 
   return (
-    <footer className="flex-row font-fira-code ">
+    <footer className="md:flex-row hidden font-fira-code ">
       <div className="flex border-t border-[#939BA8] w-11/12 ml-[50px]">
         <NavLink to="/" onClick={() => setActiveLink("/")}>
           <div className="flex ml-[150px] items-center justify-between mt-[50px]">
