@@ -5,12 +5,21 @@ export default {
     extend: {
       colors: {
         primary: { 1: "#0A192F" },
-        // textColor: { 1: "#ABB2BF" },
         textColor: { 1: "#9CA3AF" },
       },
       fontFamily: {
         "fira-code": ["Fira Code", "monospace"],
       },
+    },
+    screens: {
+      ss: "280px",
+      // ssm: "300px",
+      sm: "640px",
+      md: "768px",
+      md1: "912px",
+      lg: "1024px",
+      xl: "1280px",
+      xxl: "1536px",
     },
   },
   plugins: [],
