@@ -4,7 +4,7 @@ import { FixedSideSocials } from "../components";
 
 const Home = () => {
   return (
-    <section className="flex my-[150px]">
+    <section className="sm:flex hidden my-[150px] sm:flex-row flex-col">
       <div className="flex flex-col font-fira-code ml-[150px]">
         <div className="text-[25px]">
           <h3 className="text-[#64FFDB]">
@@ -22,7 +22,7 @@ const Home = () => {
                 2000, // wait 1s before replacing "Mice" with "Hamsters"
                 "Front-end Developer",
                 2000,
-                "Smart-contract Developer",
+                "Solidity Developer",
                 2000,
               ]}
               wrapper="span"
