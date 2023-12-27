@@ -1,17 +1,21 @@
 import { useState } from "react";
 import { navlinks } from "../constants";
 import { NavLink, useLocation } from "react-router-dom";
+import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
+import { SiSubstack } from "react-icons/si";
+import { Link } from "react-router-dom";
 
-import { Logo } from "../assets";
+import { Logo, Menu, closeMenu } from "../assets";
 
 const Navbar = () => {
   const location = useLocation();
   const [activeLink, setActiveLink] = useState(location.pathname);
+  const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="flex font-fira-code items-center justify-between">
+    <nav className="flex font-fira-code md:pb-[5px] items-center justify-between border-b-2 shadow-md border-[#0A192F]">
       <NavLink to="/" onClick={() => setActiveLink("/")}>
-        <div className="flex ml-[150px] items-center justify-between mt-[50px]">
+        <div className="flex m-[20px] md:m-[0px] md:ml-[150px] items-center justify-between md:mt-[30px]">
           <img
             src={Logo}
             style={{
@@ -26,7 +30,7 @@ const Navbar = () => {
         </div>
       </NavLink>
 
-      <div className="flex items-center justify-between mr-[150px] mt-[50px]">
+      <div className="sm:flex hidden items-center justify-between mr-[150px] mt-[30px]">
         <ul className="flex text-textColor-1">
           {navlinks.map((link) => (
             <li
@@ -44,12 +48,67 @@ const Navbar = () => {
               </NavLink>
             </li>
           ))}
-          <button className="border border-[#64FFDB] w-auto transform transition duration-500 ease-in-out hover:scale-110">
+          <button className="border hidden md1:flex border-[#64FFDB] w-auto transform transition duration-500 ease-in-out hover:scale-110">
             <a href="src/constants/0x0se.pdf" download>
               <div className="mx-[20px] text-white">Resume</div>
             </a>
           </button>
         </ul>
+      </div>
+
+      {/* Responsive navigation items (for smaller screens) */}
+      <div className="sm:hidden flex items-center flex-1 justify-end px-[20px]">
+        <div
+          className={`fixed top-0 left-0 w-full h-full backdrop-blur bg-primary-2/30 bg-opacity-75 z-20 transform ${
+            toggle ? "-x-0" : "translate-x-full"
+          } transition-transform duration-700 ease-in-out sm:hidden`}
+        >
+          <div className="flex flex-col justify-center items-center h-full space-y-4 border-b-4 border-[#64ffdb]">
+            {navlinks.map((link) => (
+              <NavLink
+                to={link.link}
+                onClick={() => {
+                  setToggle(false);
+                }}
+                key={link.id}
+              >
+                <div className="flex">
+                  <div className="text-[#64FFDB]">#</div>
+                  <span className="border-b-2 border-transparent text-white hover:border-[#64FFDB]">
+                    {link.title}
+                  </span>
+                </div>
+              </NavLink>
+            ))}
+            <button className="border bg-[#64FFDB] w-auto transform transition duration-500 ease-in-out hover:scale-110">
+              <a href="src/constants/0x0se.pdf" download>
+                <div className="mx-[20px] text-[#0A192F]">Resume</div>
+              </a>
+            </button>
+
+            <div className="flex">
+              <Link to={"#"} target="_blank" className="mt-[100px] mx-[10px]">
+                <RiGithubFill size={30} color={"#939BA8"} />
+              </Link>
+              <Link
+                to={"https://www.linkedin.com/in/patrick-ehimen/"}
+                target="_blank"
+                className="mt-[100px] mx-[10px]"
+              >
+                <RiLinkedinFill size={30} color={"#939BA8"} />
+              </Link>
+              <Link to={"#"} target="_blank" className="mt-[100px] mx-[10px]">
+                <SiSubstack size={30} color={"#939BA8"} />
+              </Link>
+            </div>
+          </div>
+        </div>
+        <img
+          src={toggle ? closeMenu : Menu}
+          alt="menu"
+          className="w-[28px] h-[28px] object-contain z-50 "
+          onClick={() => setToggle((prev) => !prev)}
+        />
       </div>
     </nav>
     // https://github.com/Patrick-Ehimen/typescript_dev_portfolio/blob/main/src/constants/0x0se.pdf
