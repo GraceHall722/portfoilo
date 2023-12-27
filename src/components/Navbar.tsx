@@ -87,7 +87,11 @@ const Navbar = () => {
             </button>
 
             <div className="flex">
-              <Link to={"#"} target="_blank" className="mt-[100px] mx-[10px]">
+              <Link
+                to={"https://github.com/Patrick-Ehimen"}
+                target="_blank"
+                className="mt-[100px] mx-[10px]"
+              >
                 <RiGithubFill size={30} color={"#939BA8"} />
               </Link>
               <Link
