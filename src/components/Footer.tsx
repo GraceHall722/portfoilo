@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
         </NavLink>
 
-        <div className="flex flex-col md1:flex-row mt-[50px] ssm:ml-[150px] ml-[100px] md:ml-[35px] lg:mx-[150px]">
+        <div className="flex flex-col md1:flex-row mt-[50px] ss:ml-[65px] ssm:ml-[150px] ml-[100px] md:ml-[35px] lg:mx-[150px]">
           <p className="flex text-[#939BA8] pb-2 md:pb-[10px]">
             You can find me here:
           </p>
@@ -79,8 +79,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="mx-4 md1:mx-[150px] p-4 md1:w-9/12 text-[#939BA8]">
-        <p className="pl-4 md:pl-[120px] pt-4 md:pt-[20px] mt-4 md:mt-[20px] border-t border-[#939BA8]">
+      <div className="mx-4 md1:mx-[150px] md:ml-[30px] p-4 md1:w-9/12 text-[#939BA8]">
+        <p className=" pl-4 md:pl-[120px] pt-4 md:pt-[20px] mt-4 md:mt-[20px] border-t border-[#939BA8] text-center md:mx-[50px] lg:text-justify">
           Copyright © 2024 - All right reserved by Patrick-Ehimen
         </p>
       </div>
