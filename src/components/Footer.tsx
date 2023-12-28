@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mx-4 md1:mx-[150px] md:ml-[30px] p-4 md1:w-9/12 text-[#939BA8]">
-        <p className=" pl-4 md:pl-[120px] pt-4 md:pt-[20px] mt-4 md:mt-[20px] border-t border-[#939BA8] text-center md:mx-[50px] lg:text-justify">
+        <p className=" pl-4 lg:pl-[50px] xl:pl-[100px] pt-4 md:pt-[20px] mt-4 md:mt-[20px] border-t border-[#939BA8] text-center md:mx-[50px] lg:text-justify">
           Copyright © 2024 - All right reserved by Patrick-Ehimen
         </p>
       </div>
