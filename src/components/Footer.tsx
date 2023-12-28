@@ -17,15 +17,19 @@ const Footer = () => {
         <NavLink to="/" onClick={() => setActiveLink("/")}>
           <div className="flex flex-col md:flex-row ml-4 md:ml-10 md1:ml-[150px] items-center justify-between mt-10 md:mt-[50px]">
             <div className="flex flex-col mb-2">
-              <img src={Logo} className="w-[50px]" />
-              <h3 className="text-white text-base text-bold mx-3">Patrick</h3>
+              <div className="flex mb-2">
+                <img src={Logo} className="w-[20px] h-[30px] flex" />
+                <h3 className="text-white text-base text-bold mx-3 flex">
+                  Patrick
+                </h3>
+              </div>
               <p className="text-[#939BA8] flex-col">
                 osepatrick.ehimen77@gmail.com
               </p>
             </div>
           </div>
           <div>
-            <p className="ss:ml-[100px] ssm:ml-[150px] md:ml-[150px] text-[#939BA8] my-2 md:my-[10px]">
+            <p className="ss:ml-[65px] ssm:ml-[150px] md:ml-[43px] md1:ml-[150px] text-[#939BA8] my-2 md:my-[10px]">
               Blockchanin Engineer{" "}
             </p>
           </div>
@@ -35,7 +39,7 @@ const Footer = () => {
           <p className="flex text-[#939BA8] pb-2 md:pb-[10px]">
             You can find me here:
           </p>
-          <div className="flex px-[10px] hover:">
+          <div className="flex px-[10px]">
             <Link
               target="_blank"
               to={"https://github.com/Patrick-Ehimen"}
@@ -75,8 +79,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="mx-[150px] p-4 text-[#939BA8]">
-        <p className="pl-[120px] pt-[20px] mt-[20px] border-t border-[#939BA8]">
+      <div className="mx-4 md1:mx-[150px] p-4 md1:w-9/12 text-[#939BA8]">
+        <p className="pl-4 md:pl-[120px] pt-4 md:pt-[20px] mt-4 md:mt-[20px] border-t border-[#939BA8]">
           Copyright © 2024 - All right reserved by Patrick-Ehimen
         </p>
       </div>
