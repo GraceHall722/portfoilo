@@ -12,6 +12,10 @@ const Navbar = () => {
   const [activeLink, setActiveLink] = useState(location.pathname);
   const [toggle, setToggle] = useState(false);
 
+  const [isHoveredGithub, setIsHoveredGithub] = useState(false);
+  const [isHoveredLinkedin, setIsHoveredLinkedin] = useState(false);
+  const [isHoveredSubstack, setIsHoveredSubstack] = useState(false);
+
   return (
     <nav className="flex font-fira-code md:pb-[5px] items-center justify-between border-b-2 shadow-md border-[#0A192F]">
       <NavLink to="/" onClick={() => setActiveLink("/")}>
@@ -87,23 +91,54 @@ const Navbar = () => {
             </button>
 
             <div className="flex">
-              <Link
-                to={"https://github.com/Patrick-Ehimen"}
-                target="_blank"
+              <div
+                style={{
+                  transform: isHoveredGithub ? "translateY(-5px)" : "none",
+                  transition: "transform 0.3s ease-in-out",
+                }}
                 className="mt-[100px] mx-[10px]"
               >
-                <RiGithubFill size={30} color={"#939BA8"} />
-              </Link>
-              <Link
-                to={"https://www.linkedin.com/in/patrick-ehimen/"}
-                target="_blank"
+                <Link
+                  to={"https://github.com/Patrick-Ehimen"}
+                  target="_blank"
+                  onMouseEnter={() => setIsHoveredGithub(true)}
+                  onMouseLeave={() => setIsHoveredGithub(false)}
+                >
+                  <RiGithubFill size={30} color={"#939BA8"} />
+                </Link>
+              </div>
+              <div
+                style={{
+                  transform: isHoveredLinkedin ? "translateY(-5px)" : "none",
+                  transition: "transform 0.3s ease-in-out",
+                }}
                 className="mt-[100px] mx-[10px]"
               >
-                <RiLinkedinFill size={30} color={"#939BA8"} />
-              </Link>
-              <Link to={"#"} target="_blank" className="mt-[100px] mx-[10px]">
-                <SiSubstack size={30} color={"#939BA8"} />
-              </Link>
+                <Link
+                  to={"https://www.linkedin.com/in/patrick-ehimen/"}
+                  target="_blank"
+                  onMouseEnter={() => setIsHoveredLinkedin(true)}
+                  onMouseLeave={() => setIsHoveredLinkedin(false)}
+                >
+                  <RiLinkedinFill size={30} color={"#939BA8"} />
+                </Link>
+              </div>
+              <div
+                style={{
+                  transform: isHoveredSubstack ? "translateY(-5px)" : "none",
+                  transition: "transform 0.3s ease-in-out",
+                }}
+                className="mt-[100px] mx-[10px]"
+              >
+                <Link to={"#"} target="_blank">
+                  <SiSubstack
+                    size={30}
+                    color={"#939BA8"}
+                    onMouseEnter={() => setIsHoveredSubstack(true)}
+                    onMouseLeave={() => setIsHoveredSubstack(false)}
+                  />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
