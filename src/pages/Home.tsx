@@ -4,35 +4,37 @@ import { FixedSideSocials } from "../components";
 
 const Home = () => {
   return (
-    <section className="sm:flex hidden my-[150px] sm:flex-row flex-col bg-[#0A192F]">
-      <div className="flex flex-col font-fira-code ml-[150px]">
-        <div className="text-[25px]">
+    <section className="md:flex md:my-[150px] my-[50px] flex-col bg-[#0A192F]">
+      <div className="flex flex-col font-fira-code mx-[50px] md:ml-[150px]">
+        <div className="md:text-[25px] text-[18px]">
           <h3 className="text-[#64FFDB]">
             Hi all, <span className="text-[#FFBF00]">I am</span>
           </h3>
         </div>
-        <div className="text-white text-[50px]">Patrick Ehimen.</div>
-        <div className="text-[30px] text-[#939BA8]">
+        <div className="text-white md:text-[50px] text-[35px]">
+          Patrick Ehimen.
+        </div>
+        <div className="md:text-[30px] text-[20px] text-[#939BA8]">
           I am a{" "}
           <span className="text-[#64ffd8]">
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 "Blockchain Engineer",
-                2000, // wait 1s before replacing "Mice" with "Hamsters"
+                500, // wait 1s before replacing "Mice" with "Hamsters"
                 "Front-end Developer",
-                2000,
+                500,
                 "Solidity Developer",
-                2000,
+                500,
               ]}
               wrapper="span"
-              // speed={40}
-              style={{ fontSize: "30px", display: "" }}
+              speed={20}
+              style={{ fontSize: "20px", display: "" }}
               repeat={Infinity}
             />
           </span>{" "}
           <br />
-          and <span className="text-[#FFBF00]">Technical Writer..</span>
+          and <span className="text-[#FFBF00] ]">Technical Writer..</span>
         </div>
         <p className="my-[10px] text-[#939ba8]">
           Skilled blockchain developer specializing in <br />
