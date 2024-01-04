@@ -75,6 +75,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <FixedSideSocials />
     </section>
   );
