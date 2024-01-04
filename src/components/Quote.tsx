@@ -3,7 +3,7 @@ const Quote = () => {
     <section className="mb-[15px] md:-mt-20 md:ml-[250px] mx-[10px] ">
       <div className=" mx-[]">
         <div className="text-[#64FFDB] ml-[10px] text-[60px] -mb-14 z-10 border border-white bg-[#2D3250]">
-          "
+          "{/* #020916 */}
         </div>
         <div className="font-fira-code text-[20px] text-white border md:w-8/12 pl-[15px] py-[20px]">
           With great power comes great electricity bill!!
