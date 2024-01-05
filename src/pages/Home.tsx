@@ -41,7 +41,7 @@ const Home = () => {
                 />
               </span>{" "}
               <br />
-              and <span className="text-[#FFBF00] ]">Technical Writer..</span>
+              and <span className="text-[#FFBF00] ]">Technical Writer.</span>
             </div>
             <p className="my-[10px] text-[#939ba8]">
               Skilled blockchain developer specializing in{" "}
