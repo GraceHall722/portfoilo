@@ -28,7 +28,7 @@ const Navbar = () => {
             }}
           />
 
-          <h3 className="text-white text text-bold text-[25px] mx-3 hover:text-[#64FFDB]">
+          <h3 className="text-white text-bold text-[25px] mx-3 hover:text-[#64FFDB]">
             Patrick
           </h3>
         </div>
