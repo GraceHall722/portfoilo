@@ -18,7 +18,14 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row ml-4 md:ml-10 md1:ml-[150px] items-center justify-between mt-10 md:mt-[50px]">
             <div className="flex flex-col mb-2">
               <div className="flex mb-2">
-                <img src={Logo} className="w-[20px] h-[30px] flex" />
+                <img
+                  src={Logo}
+                  className="w-[20px] h-[30px] flex"
+                  style={{
+                    filter:
+                      "brightness(0) saturate(100%) invert(98%) sepia(93%) saturate(841%) hue-rotate(75deg) brightness(105%) contrast(123%)",
+                  }}
+                />
                 <h3 className="text-white text-base text-bold mx-3 flex">
                   Patrick
                 </h3>
