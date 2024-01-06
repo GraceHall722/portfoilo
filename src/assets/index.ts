@@ -12,6 +12,10 @@ import Frame28 from "./Frame28.svg";
 import Image2 from "./Image2.svg";
 import Frame29 from "./Frame29.svg";
 import Square from "./Square.svg";
+import Telegram from "./Telegram.svg";
+import Email from "./Email.svg";
+import Discord from "./Discord.svg";
+import Twitter from "./Twitter.svg";
 
 export {
   Logo,
@@ -28,4 +32,8 @@ export {
   Image2,
   Frame29,
   Square,
+  Telegram,
+  Email,
+  Twitter,
+  Discord,
 };
