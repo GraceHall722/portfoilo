@@ -9,6 +9,9 @@ import Photo2 from "./Photo2.svg";
 import Photo3 from "./Photo3.svg";
 import Frame25 from "./Frame25.svg";
 import Frame28 from "./Frame28.svg";
+import Image2 from "./Image2.svg";
+import Frame29 from "./Frame29.svg";
+import Square from "./Square.svg";
 
 export {
   Logo,
@@ -22,4 +25,7 @@ export {
   Photo3,
   Frame25,
   Frame28,
+  Image2,
+  Frame29,
+  Square,
 };
