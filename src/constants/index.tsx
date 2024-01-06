@@ -1,4 +1,4 @@
-import { Photo1, Photo2, Photo3 } from "../assets";
+import { Photo1, Photo2, Photo3, Telegram, Email } from "../assets";
 
 export const navlinks = [
   {
@@ -75,5 +75,14 @@ export const skills = [
     id: 5,
     title: "Web3 Tooling",
     skillBody: "English, Russian, English, Russian, Russian, asdfgh",
+  },
+];
+
+export const contact = [
+  {
+    id: 1,
+    title: "Message me here",
+    icon1: Telegram,
+    icon2: Email,
   },
 ];

@@ -1,6 +1,7 @@
 import { FixedSideSocials } from "../components";
 import { Dots, Image2 } from "../assets";
 import { skills } from "../constants";
+import { Frame29, Square } from "../assets";
 
 const Home = () => {
   return (
@@ -66,13 +67,13 @@ const Home = () => {
                   {skill.title}
                 </h2>
               </div>
-              <p className="text-[#939ba8] mx-[20px]">{skill.skillBody}</p>
+              <p className="text-[#939ba8] m-[20px]">{skill.skillBody}</p>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="md:grid md:grid-cols-3 md:gap-4 md:mx-[50px] ss:hidden lg:hidden mx-[50px] font-fira-code lg:-ml-[15px] xl:ml-[50px] mt-[20px] mb-[50px] w-[700px]">
+      <div className="md:grid md:grid-cols-3 md:gap-2 md:ml-[65px] ss:hidden lg:hidden md1:ml-[150px] font-fira-code mt-[20px] mb-[50px] w-[700px]">
         {skills.slice(0, 3).map((skill, index) => (
           <div
             key={skill.id}
@@ -85,7 +86,7 @@ const Home = () => {
             <p className="text-[#939ba8] mx-[20px]">{skill.skillBody}</p>
           </div>
         ))}
-        <div className="md:grid md:grid-cols-2 md:gap-4 md:mx-[100px] mx-[50px] font-fira-code lg:-ml-[15px] xl:ml-[50px] mt-[20px] mb-[50px] coolzz">
+        <div className="md:grid md:grid-cols-2 md:gap-4 md:ml-[70px] mx-[50px] font-fira-code lg:-ml-[15px] xl:ml-[50px] mt-[20px] mb-[50px] w-[550px]">
           {skills.slice(3, 5).map((skill, index) => (
             <div
               key={skill.id}
@@ -102,6 +103,12 @@ const Home = () => {
           ))}
         </div>
       </div>
+
+      <img
+        src={Frame29}
+        className="absolute md:bottom-10 hidden md:flex bottom-48 md:left-0 right-4"
+      />
+      <img src={Square} className="absolute md:bottom-10 top-36 right-0" />
     </div>
   );
 };
