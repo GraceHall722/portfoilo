@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <section className="lg:flex-row md:my-[150px] my-[50px] flex flex-col bg-[#0A192F]">
-        <div className="md:flex-row flex-col happy">
+        <div className="md:flex-row flex-col">
           <div className="flex flex-col font-fira-code mx-[50px] md:ml-[150px] md:w-[500px]">
             <div className="md:text-[25px] text-[18px]">
               <h3 className="text-[#64FFDB]">
@@ -59,7 +59,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="relative cool lg:flex-row flex-col mt-[20px] md:mt-[30px] md1:mt-[30px] md:mx-[100px] md1:mx-auto">
+        <div className="relative lg:flex-row flex-col mt-[20px] md:mt-[30px] md1:mt-[30px] md:mx-[100px] md1:mx-auto">
           <div className="absolute top-12 left-8 lg:left-0">
             <img src={Img1} />
           </div>
