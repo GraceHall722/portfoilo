@@ -1,34 +1,79 @@
 import { FixedSideSocials } from "../components";
+import { Dots, Image2 } from "../assets";
+import { skills } from "../constants";
 
-const AboutMe = () => {
+const Home = () => {
   return (
-    <section className="flex-col">
-      <FixedSideSocials />
-      <div className="ml-[150px]">
-        <div className="font-fira-code flex mt-[50px] text-[30px] my-[10px]">
-          <span className="text-[#64FFDB]">/</span>
-          <div className="text-white">about-me</div>
-        </div>
-        <div className="text-[#939BA8] text-[16px]">Who am i?</div>
+    <div>
+      <section className="lg:flex-row md:my-[150px] my-[50px] flex flex-col bg-[#0A192F]">
+        <div className="md:flex-row flex-col">
+          <div className="flex flex-col font-fira-code mx-[50px] md:ml-[150px] md:w-[500px]">
+            <div className="md:text-[25px] text-[18px] flex">
+              <span className="text-[#64FFDB]">/</span>
+              <h3 className="text-white">about-me</h3>
+            </div>
+            <div className="text-white md:text-[20px] mb-[100px] text-[35px]">
+              Who am i?
+            </div>
 
-        <div className="mt-[70px] flex-col font-fira-code">
-          <span className="text-[#FFBF00] text-[50px]">"</span>
-          <div className="ml-[8px] mt-[20px] text-[#939ba8] mb-[20px]">
-            Hello, I'm Patrick!
+            <p className="my-[10px] text-[#939ba8]">
+              Skilled blockchain developer specializing in{" "}
+              <br className="hidden md:flex" />
+              secure smart contract design and DApp development.
+              <br className="" />
+              Proficient in Ethereum and other blockchain networks.
+            </p>
+            <br />
+            <p className="my-[10px] text-[#939ba8]">
+              Skilled blockchain developer specializing in{" "}
+              <br className="hidden md:flex" />
+              secure smart contract design and DApp development.
+              <br className="" />
+              Proficient in Ethereum and other blockchain networks.
+            </p>
           </div>
-          <div className="flex flex-col w-6/12 text-[#939ba8] ml-[8px]">
-            I’m a self-taught front-end developer based in Kyiv, Ukraine. I can
-            develop responsive websites from scratch and raise them into modern
-            user-friendly web experiences. Transforming my creativity and
-            knowledge into a websites has been my passion for over a year. I
-            have been helping various clients to establish their presence
-            online. I always strive to learn about the newest technologies and
-            frameworks.<span className="text-[#FFBF00] text-[50px]">"</span>
+        </div>
+
+        <div className="relative lg:flex-row flex-col mt-[20px] md:mt-[30px] md1:mt-[30px] md:mx-[100px] md1:mx-auto">
+          <div className="absolute top-8 left-8 lg:left-4 z-[10]">
+            <img src={Dots} />
           </div>
+          <div className="absolute bottom-16 right-12 z-[10] lg:bottom-20 xl:bottom-12">
+            <img src={Dots} />
+          </div>
+          <div className="relative flex-grow xl:right-0 lg:right-12">
+            <img src={Image2} className="md:w-3/4 md1:w-full" />
+          </div>
+        </div>
+
+        <FixedSideSocials />
+      </section>
+      <div className="md:ml-[150px] md:-mt-[50px] mt-5">
+        <div className="font-fira-code flex text-[30px] ml-[50px] md:ml-[00px] ">
+          <span className="text-[#64FFDB]">#</span>
+          <div className="text-white">skills</div>
+        </div>
+
+        <div className="md:flex-row md:w-[500px] flex-col flex space-x-4 justify-between items-center md:mx-[100px] mx-[50px] font-fira-code lg:-ml-[15px] xl:ml-[50px] mt-[20px] mb-[50px] coolzz">
+          {/* <div className="md:grid flex-col flex ml-[50px]  md:grid-cols-3 justify-between items-cente md:gap-4 md:mx-[100px] mx-[50px] font-fira-code md1:mx-[0px] mt-[20px] mb-[50px]"> */}
+          {skills.map((skill, index) => (
+            <div
+              key={skill.id}
+              className={`border mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95
+                 ${index === 0 ? "ml-[10px]" : ""}`}
+            >
+              <div className="border">
+                <h2 className="text-white m-[20px] text-[25px]">
+                  {skill.title}
+                </h2>
+              </div>
+              <p className="text-[#939ba8] mx-[20px]">{skill.skillBody}</p>
+            </div>
+          ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
-export default AboutMe;
+export default Home;
