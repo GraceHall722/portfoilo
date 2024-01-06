@@ -48,19 +48,49 @@ const Home = () => {
 
         <FixedSideSocials />
       </section>
-      <div className="md:ml-[150px] md:-mt-[50px] mt-5">
+      <div className="md:ml-[150px] md:-mt-[50px] mt-5 md:hidden lg:flex">
         <div className="font-fira-code flex text-[30px] ml-[50px] md:ml-[00px] ">
           <span className="text-[#64FFDB]">#</span>
           <div className="text-white">skills</div>
         </div>
 
-        <div className="md:flex-row md:w-[500px] flex-col flex space-x-4 justify-between items-center md:mx-[100px] mx-[50px] font-fira-code lg:-ml-[15px] xl:ml-[50px] mt-[20px] mb-[50px] coolzz">
-          {/* <div className="md:grid flex-col flex ml-[50px]  md:grid-cols-3 justify-between items-cente md:gap-4 md:mx-[100px] mx-[50px] font-fira-code md1:mx-[0px] mt-[20px] mb-[50px]"> */}
+        <div className="md:flex-row md:w-[500px] flex-col flex space-x-4 justify-between items-center md:mx-[100px] mx-[50px] font-fira-code lg:-ml-[150px] xl:ml-[0px] mt-[20px] mb-[50px]">
           {skills.map((skill, index) => (
             <div
               key={skill.id}
               className={`border mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95
                  ${index === 0 ? "ml-[10px]" : ""}`}
+            >
+              <div className="border">
+                <h2 className="text-white m-[20px] text-[25px]">
+                  {skill.title}
+                </h2>
+              </div>
+              <p className="text-[#939ba8] mx-[20px]">{skill.skillBody}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="md:grid md:grid-cols-3 md:gap-4 md:mx-[50px] ss:hidden lg:hidden mx-[50px] font-fira-code lg:-ml-[15px] xl:ml-[50px] mt-[20px] mb-[50px] w-[700px]">
+        {skills.slice(0, 3).map((skill, index) => (
+          <div
+            key={skill.id}
+            className={`border mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95
+       ${index === 0 ? "ml-[10px]" : ""}`}
+          >
+            <div className="border">
+              <h2 className="text-white m-[20px] text-[25px]">{skill.title}</h2>
+            </div>
+            <p className="text-[#939ba8] mx-[20px]">{skill.skillBody}</p>
+          </div>
+        ))}
+        <div className="md:grid md:grid-cols-2 md:gap-4 md:mx-[100px] mx-[50px] font-fira-code lg:-ml-[15px] xl:ml-[50px] mt-[20px] mb-[50px] coolzz">
+          {skills.slice(3, 5).map((skill, index) => (
+            <div
+              key={skill.id}
+              className={`border mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95
+         ${index === 0 ? "ml-[10px]" : ""}`}
             >
               <div className="border">
                 <h2 className="text-white m-[20px] text-[25px]">
