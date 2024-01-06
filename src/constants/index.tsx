@@ -49,3 +49,31 @@ export const homeProjects = [
     link: "#",
   },
 ];
+
+export const skills = [
+  {
+    id: 1,
+    title: "Language",
+    skillBody: "English, Russian",
+  },
+  {
+    id: 2,
+    title: "Other",
+    skillBody: "English, Russian, English",
+  },
+  {
+    id: 3,
+    title: "Framework",
+    skillBody: "English, Russian, Russian, English",
+  },
+  {
+    id: 4,
+    title: "Tools",
+    skillBody: "English, Russian, English, Russian, asdfgh",
+  },
+  {
+    id: 5,
+    title: "Web3 Tooling",
+    skillBody: "English, Russian, English, Russian, Russian, asdfgh",
+  },
+];
