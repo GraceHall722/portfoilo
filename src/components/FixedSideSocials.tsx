@@ -10,7 +10,7 @@ const FixedSideSocials = () => {
 
   return (
     <div
-      className="z-10 fixed top-0 left-0 hidden lg:flex flex-row px-12 items-center justify-between"
+      className="z-10 fixed top-0 left-0 hidden md:flex flex-row px-12 items-center justify-between"
       style={{ transform: "translateY(0%) translateZ(0px)" }}
     >
       <div className="flex flex-col space-y-8 items-center justify-center">
