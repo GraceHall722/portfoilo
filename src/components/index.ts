@@ -3,3 +3,4 @@ export { default as Footer } from "./Footer";
 export { default as FixedSideSocials } from "./FixedSideSocials";
 export { default as Quote } from "./Quote";
 export { default as HomeProject } from "./HomeProject";
+export { default as Experience } from "./Experience";
