@@ -18,7 +18,7 @@ const ContactMe = () => {
               <h3 className="text-white">contacts</h3>
             </div>
             <div className="text-white md:text-[20px] mb-[100px] text-[35px]">
-              Reach me!
+              Reach out to me!
             </div>
 
             <p className="my-[10px] text-[#939ba8]">
@@ -94,7 +94,7 @@ const ContactMe = () => {
                 transition: "transform 0.3s ease-in-out",
               }}
             />
-            <h3 className="mx-[10px] pt-1 hover:text-[#ffbf00]">0xOse_eth</h3>
+            <h3 className="mx-[10px] pt-1 hover:text-[#64FFDB]">0xOse_eth</h3>
           </Link>
           <Link to={"#"} className="flex">
             <img
@@ -109,7 +109,7 @@ const ContactMe = () => {
                 transition: "transform 0.3s ease-in-out",
               }}
             />
-            <h3 className="mx-[10px] pt-1 hover:text-[#ffbf00]">0xOse</h3>
+            <h3 className="mx-[10px] pt-1 hover:text-[#64FFDB]">0xOse</h3>
           </Link>
         </div>
       </div>
