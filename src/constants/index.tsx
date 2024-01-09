@@ -50,31 +50,66 @@ export const homeProjects = [
   },
 ];
 
+export const smallProjects = [
+  {
+    id: 1,
+    skill: "HTML TailwindCss React",
+    title: "ChertNodes",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+  },
+  {
+    id: 2,
+    skill: "HTML CSS React EthersJs Rust Solana",
+    title: "ProtectX",
+    descr: "Discord anti-crash bot Discord anti-crash bot",
+    link: "#",
+  },
+];
+
+export const smallProjects2 = [
+  {
+    id: 1,
+    skill: "HTML TailwindCss React Solidity NextJs",
+    title: "Kahoot Answers Viewer",
+    descr: "Get answers to your Kahoot quiz",
+    link: "#",
+  },
+  {
+    id: 2,
+    skill: "HTML TailwindCss React Solidity NextJs",
+    title: "Kahoot Answers Viewer",
+    descr: "Get answers to your Kahoot quiz",
+    link: "#",
+  },
+];
+
 export const skills = [
   {
     id: 1,
     title: "Language",
-    skillBody: "English, Russian",
+    skillBody: "HTML CSS Javascript Typescript Solidity Rust",
   },
   {
     id: 2,
-    title: "Other",
-    skillBody: "English, Russian, English",
+    title: "Web3 Tooling",
+    skillBody: "Ethers.js Web3.js Anchor-CLI Thirdweb Foundry Hardhat",
   },
   {
     id: 3,
-    title: "Framework",
-    skillBody: "English, Russian, Russian, English",
+    title: "Framework/ Library",
+    skillBody: "Next.js React.js TailwindCSS Vue.js",
   },
   {
     id: 4,
-    title: "Tools",
-    skillBody: "English, Russian, English, Russian, asdfgh",
+    title: "Networks",
+    skillBody:
+      "Ethereum Polygon Solana, Biance-Smart-Chain Polkadot Avalanche Flow",
   },
   {
     id: 5,
-    title: "Web3 Tooling",
-    skillBody: "English, Russian, English, Russian, Russian, asdfgh",
+    title: "Others",
+    skillBody: "Figma Git, GraphQL, Node.js, Russian, asdfgh",
   },
 ];
 
