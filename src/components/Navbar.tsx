@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { navlinks } from "../constants";
 import { NavLink, useLocation } from "react-router-dom";
 import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
@@ -15,6 +15,10 @@ const Navbar = () => {
   const [isHoveredGithub, setIsHoveredGithub] = useState(false);
   const [isHoveredLinkedin, setIsHoveredLinkedin] = useState(false);
   const [isHoveredSubstack, setIsHoveredSubstack] = useState(false);
+
+  useEffect(() => {
+    setActiveLink(location.pathname);
+  }, [location]);
 
   return (
     <nav className="flex font-fira-code md:pb-[5px] items-center justify-between border-b-2 shadow-md border-[#0A192F]">
