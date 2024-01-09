@@ -55,14 +55,14 @@ const Home = () => {
           <div className="text-white">skills</div>
         </div>
 
-        <div className="md:flex-row md:w-[500px] flex-col flex space-x-4 justify-between items-center md:mx-[100px] mx-[50px] font-fira-code lg:-ml-[150px] xl:ml-[0px] mt-[20px] mb-[50px]">
+        <div className="md:flex-row md:w-[500px] flex-col flex space-x-4 justify-between items-center md:mx-[100px] mx-[50px] font-fira-code lg:-ml-[165px] xl:-ml-[50px] mt-[20px] mb-[50px]">
           {skills.map((skill, index) => (
             <div
               key={skill.id}
-              className={`border mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95
+              className={`border border-[#64FFDB] mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95
                  ${index === 0 ? "ml-[10px]" : ""}`}
             >
-              <div className="border">
+              <div className="border border--[#64FFDB]">
                 <h2 className="text-white m-[20px] text-[25px]">
                   {skill.title}
                 </h2>
@@ -77,28 +77,28 @@ const Home = () => {
         {skills.slice(0, 3).map((skill, index) => (
           <div
             key={skill.id}
-            className={`border mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95
+            className={`border border-[#64FFDB] mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95
        ${index === 0 ? "ml-[10px]" : ""}`}
           >
-            <div className="border">
+            <div className="border border-b-[#64FFDB]">
               <h2 className="text-white m-[20px] text-[25px]">{skill.title}</h2>
             </div>
-            <p className="text-[#939ba8] mx-[20px]">{skill.skillBody}</p>
+            <p className="text-[#939ba8] m-[20px]">{skill.skillBody}</p>
           </div>
         ))}
-        <div className="md:grid md:grid-cols-2 md:gap-4 md:ml-[70px] mx-[50px] font-fira-code lg:-ml-[15px] xl:ml-[50px] mt-[20px] mb-[50px] w-[550px]">
+        <div className="md:grid  md:grid-cols-2 md:gap-4 md:ml-[70px] mx-[50px] font-fira-code lg:-ml-[15px] xl:ml-[50px] mt-[20px] mb-[50px] w-[550px]">
           {skills.slice(3, 5).map((skill, index) => (
             <div
               key={skill.id}
-              className={`border mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95
+              className={`border border-[#64FFDB] mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95
          ${index === 0 ? "ml-[10px]" : ""}`}
             >
-              <div className="border">
+              <div className="border border-b-[#64FFDB]">
                 <h2 className="text-white m-[20px] text-[25px]">
                   {skill.title}
                 </h2>
               </div>
-              <p className="text-[#939ba8] mx-[20px]">{skill.skillBody}</p>
+              <p className="text-[#939ba8] m-[20px]">{skill.skillBody}</p>
             </div>
           ))}
         </div>
