@@ -1,6 +1,6 @@
 import { FixedSideSocials } from "../components";
 import { Dots, Image2 } from "../assets";
-import { skills } from "../constants";
+import { skills, tech1, tech2 } from "../constants";
 import { Frame29, Square } from "../assets";
 
 const Home = () => {
@@ -18,20 +18,51 @@ const Home = () => {
             </div>
 
             <p className="my-[10px] text-[#939ba8]">
-              Skilled blockchain developer specializing in{" "}
+              Hello! My name is Patrick and I enjoy creating things that live on
+              the blockhain.
               <br className="hidden md:flex" />
-              secure smart contract design and DApp development.
-              <br className="" />
-              Proficient in Ethereum and other blockchain networks.
+              I'm a <span className="text-[#64FFDB]">
+                Blockchain Engineer
+              </span>{" "}
+              who specilaizes in the development of
+              <span className="text-[#FFBF00]"> Full-Stack</span> DApps.
+              <br className="" />I am also proficient in develoying and
+              deploying <span className="text-[#64FFDB]">Smart Contracts</span>{" "}
+              on Ethereum and other blockchain networks.
             </p>
             <br />
             <p className="my-[10px] text-[#939ba8]">
-              Skilled blockchain developer specializing in{" "}
+              In addition to my development skills, I'm also competent in{" "}
+              <span className="text-[#FFBF00]">Technical Writing</span>, as i
+              have a knack for understanding and breaking down technical
+              concepts.
               <br className="hidden md:flex" />
-              secure smart contract design and DApp development.
-              <br className="" />
-              Proficient in Ethereum and other blockchain networks.
             </p>
+            <p className="my-[10px] text-[#939ba8]">
+              Here are a few technologies I’ve been working with recently:
+            </p>
+            <div className="flex flex-row space-x-8 text-[15px] mt-[5px] text-[#939ba8]">
+              <div className="flex flex-col">
+                <div>
+                  {tech1.map((tech) => (
+                    <div key={tech.id}>
+                      <span className="text-[#FFBF00] text-[10px]">{"> "}</span>
+                      {tech.title}
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="flex flex-col">
+                <div>
+                  {tech2.map((tech) => (
+                    <div key={tech.id}>
+                      <span className="text-[#FFBF00] text-[10px]">{"> "}</span>
+                      {tech.title}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -48,6 +79,11 @@ const Home = () => {
         </div>
 
         <FixedSideSocials />
+
+        <div className="font-fira-code hidden lg:hidden md:flex text-[30px] -mb-[100px] mt-[50px] ml-[150px]">
+          <span className="text-[#FFBF00]">#</span>
+          <div className="text-white">skills</div>
+        </div>
       </section>
       <div className="md:ml-[150px] md:-mt-[50px] mt-5 md:hidden lg:flex">
         <div className="font-fira-code flex text-[30px] ml-[50px] md:ml-[00px] ">
