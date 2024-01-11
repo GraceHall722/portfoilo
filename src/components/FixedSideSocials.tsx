@@ -61,7 +61,9 @@ const FixedSideSocials = () => {
           >
             <Link
               target="_blank"
-              to={"#"}
+              to={
+                "https://0xose.substack.com/?r=392mkz&utm_campaign=pub-share-checklist"
+              }
               className="transform hover:scale-110"
               onMouseEnter={() => setIsHoveredSubstack(true)}
               onMouseLeave={() => setIsHoveredSubstack(false)}
