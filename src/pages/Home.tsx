@@ -46,7 +46,8 @@ const Home = () => {
             <p className="my-[10px] text-[#939ba8]">
               Skilled blockchain developer specializing in{" "}
               <br className="hidden md:flex" />
-              secure smart contract design and DApp development.
+              Blockchain development,secure smart contract design and DApp
+              development.
               <br className="" />
               Proficient in Ethereum and other blockchain networks.
             </p>
