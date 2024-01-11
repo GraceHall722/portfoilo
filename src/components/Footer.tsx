@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Figma } from "../assets";
 
 const Footer = () => {
   const { pathname } = useLocation();
@@ -19,17 +20,30 @@ const Footer = () => {
         Get In Touch
       </div>
       <div className="text-[#636E8A] text-center mx-[40px]">
-        Although I'm Always open for any new opportunities,{" "}
+        I'm always open for any new opportunities,{" "}
         <br className="hidden md:flex" />
-        my inbox is open. Whether you have a question or just want to say hi,{" "}
-        <br className="hidden md:flex" />
-        I'll try my best to get back to you!
+        my inbox is a click away. Whether you have a question or just want to
+        say hi, <br className="hidden md:flex" />
+        I'll get back to you!
       </div>
       <button className="my-[50px] border text-[#64ffdb] border-[#64ffdb] rounded-md transform transition duration-500 ease-in-out hover:scale-110">
         <Link to="/contact-me">
           <div className="text-[18px] mx-[15px] my-[7px]">Contact Me</div>
         </Link>
       </button>
+
+      <div className="font-fira-code text-[#596580] mt-[150px] mb-[20px] text-[12px] flex hover:text-[#64ffdb]">
+        Design inspired by
+        <Link
+          to={
+            "https://www.figma.com/file/frqV7JVaKstQF3IRy7LjXm/Portfolio-(Community)?node-id=158%3A1351&mode=dev"
+          }
+          className="flex mx-[5px]"
+          target="_blank"
+        >
+          Elias <img src={Figma} className="mx-[5px]" />
+        </Link>
+      </div>
 
       <div
         className="z-10 fixed bottom-0 md1:hidden right-0 hidden md:flex flex-row px-12 items-center justify-between"
