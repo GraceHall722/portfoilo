@@ -16,6 +16,7 @@ import Telegram from "./Telegram.svg";
 import Email from "./Email.svg";
 import Discord from "./Discord.svg";
 import Twitter from "./Twitter.svg";
+import Figma from "./Figma.svg";
 
 export {
   Logo,
@@ -36,4 +37,5 @@ export {
   Email,
   Twitter,
   Discord,
+  Figma,
 };
