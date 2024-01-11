@@ -134,7 +134,12 @@ const Navbar = () => {
                 }}
                 className="mt-[100px] mx-[10px]"
               >
-                <Link to={"#"} target="_blank">
+                <Link
+                  to={
+                    "https://0xose.substack.com/?r=392mkz&utm_campaign=pub-share-checklist"
+                  }
+                  target="_blank"
+                >
                   <SiSubstack
                     size={30}
                     color={"#939BA8"}
