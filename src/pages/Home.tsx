@@ -44,7 +44,7 @@ const Home = () => {
               and <span className="text-[#FFBF00] ]">Technical Writer.</span>
             </div>
             <p className="my-[10px] text-[#939ba8]">
-              Skilled blockchain developer specializing in{" "}
+              Skilled blockchain developer specialises in{" "}
               <br className="hidden md:flex" />
               Blockchain development,secure smart contract design and DApp
               development.
