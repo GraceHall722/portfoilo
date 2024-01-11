@@ -104,12 +104,12 @@ export const skills = [
     id: 4,
     title: "Networks",
     skillBody:
-      "Ethereum Polygon Solana, Biance-Smart-Chain Polkadot Avalanche Flow",
+      "Ethereum Polygon Solana Biance-Smart-Chain Polkadot Avalanche Flow",
   },
   {
     id: 5,
     title: "Others",
-    skillBody: "Figma Git, GraphQL, Node.js, Russian, asdfgh",
+    skillBody: "Figma Git GraphQL Node.js, Russian asdfgh",
   },
 ];
 
@@ -119,5 +119,63 @@ export const contact = [
     title: "Message me here",
     icon1: Telegram,
     icon2: Email,
+  },
+];
+
+export const tech1 = [
+  {
+    id: 1,
+    title: "Javascript (ES6+)",
+  },
+  {
+    id: 2,
+    title: "Typescript",
+  },
+  {
+    id: 3,
+    title: "Solidity",
+  },
+  {
+    id: 4,
+    title: "Rust",
+  },
+  {
+    id: 5,
+    title: "Tailwindcss",
+  },
+  {
+    id: 6,
+    title: "Ethereum (EVM Chains)",
+  },
+  {
+    id: 7,
+    title: "Solana",
+  },
+];
+
+export const tech2 = [
+  {
+    id: 1,
+    title: "Ethers.Js",
+  },
+  {
+    id: 2,
+    title: "React.Js",
+  },
+  {
+    id: 3,
+    title: "Next.Js",
+  },
+  {
+    id: 4,
+    title: "Foundry",
+  },
+  {
+    id: 5,
+    title: "Hardhat",
+  },
+  {
+    id: 6,
+    title: "Figma",
   },
 ];
