@@ -22,11 +22,16 @@ const ContactMe = () => {
             </div>
 
             <p className="my-[10px] text-[#939ba8]">
-              Skilled blockchain developer specializing in{" "}
-              <br className="hidden md:flex" />
-              secure smart contract design and DApp development.
+              I’m not currently looking for any new opportunities, my inbox is
+              always open.
+              {/* <br className="hidden md:flex" /> */}
+              I’m also interested in freelance opportunities.
               <br className="" />
-              Proficient in Ethereum and other blockchain networks.
+              <p className="my-[20px]">
+                {" "}
+                However, if you have other request or question, don’t hesitate
+                to contact me
+              </p>
             </p>
           </div>
 
@@ -41,12 +46,12 @@ const ContactMe = () => {
                   <h3 className="px-[5px] text-white">OxOseeth</h3>
                 </Link>
                 <a
-                  href="mailto:osepatrick.ehimen77@gmail.com"
+                  href="mailto:0xosepatrick@gmail.com"
                   className="flex mt-[5px]"
                 >
                   <img src={item.icon2} alt="Icon 2" />
                   <h3 className="px-[5px] text-white">
-                    osepatrick.ehimen77@gmail.com
+                    0xosepatrick@gmail.com
                   </h3>
                 </a>
               </div>
