@@ -39,7 +39,7 @@ const Portfolio = () => {
 
           <div className="md:ml-[150px] ml-[50px]">
             <div className="md:text-[25px] text-[18px] flex">
-              <span className="text-[#64FFDB]">#</span>
+              <span className="text-[#FFBF00]">#</span>
               <h3 className="text-white">complete-dapps</h3>
             </div>
           </div>
@@ -104,7 +104,7 @@ const Portfolio = () => {
 
           <div className="md:ml-[150px] ml-[50px] mt-[100px]">
             <div className="md:text-[25px] text-[18px] flex">
-              <span className="text-[#64FFDB]">#</span>
+              <span className="text-[#FFBF00]">#</span>
               <h3 className="text-white">smart-contracts</h3>
             </div>
           </div>
