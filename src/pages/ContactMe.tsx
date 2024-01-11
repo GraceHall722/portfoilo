@@ -30,12 +30,12 @@ const ContactMe = () => {
               <p className="my-[20px]">
                 {" "}
                 However, if you have other request or question, don’t hesitate
-                to contact me
+                to contact me.
               </p>
             </p>
           </div>
 
-          <div className="relative ml-[150px] lg:hidden hidden md:flex flex-col md:mt-[30px] md1:mt-[30px]  border h-[150px] px-5 w-max">
+          <div className="relative ml-[150px] lg:hidden hidden md:flex flex-col md:mt-[30px] md1:mt-[30px]  border h-[150px] px-5 w-max border-[#FFBF00]">
             {contact.map((item) => (
               <div key={item.id} className="font-fira-code">
                 <h3 className="text-white text-[20px] mb-[20px] py-[10px]">
@@ -59,7 +59,7 @@ const ContactMe = () => {
           </div>
         </div>
 
-        <div className="relative flex lg:flex-row md:hidden lg:flex flex-col mt-[20px] md:mt-[30px] md1:mt-[30px]  border h-[150px] px-5 xl:-ml-[30px] lg:-ml-[85px] w-max ml-[50px]">
+        <div className="relative flex lg:flex-row md:hidden lg:flex flex-col mt-[20px] md:mt-[30px] md1:mt-[30px]  border h-[150px] px-5 xl:-ml-[30px] lg:-ml-[85px] w-max ml-[50px] border-[#FFBF00]">
           {contact.map((item) => (
             <div key={item.id} className="font-fira-code">
               <h3 className="text-white text-[20px] mb-[20px] py-[10px]">
@@ -83,7 +83,7 @@ const ContactMe = () => {
         <img src={Square} className="absolute md:bottom-10 top-36 right-0" />
       </section>
 
-      <div className="flex flex-col font-fira-code mx-[50px] md:ml-[150px] md:w-[500px] mt-[30px] md:-mt-[50px] mb-[50px]">
+      <div className="flex flex-col font-fira-code mx-[50px] md:ml-[150px] md:w-[500px] mt-[30px] md:-mt-[50px] mb-[50px] border-[#FFBF00]">
         <div className="md:text-[25px] text-[18px] flex">
           <span className="text-[#64FFDB]">#</span>
           <h3 className="text-white">all-media</h3>
