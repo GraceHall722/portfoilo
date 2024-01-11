@@ -1,4 +1,4 @@
-import { Photo1, Photo2, Photo3, Telegram, Email } from "../assets";
+import { Photo1, Photo2, Telegram, Email, Pizza } from "../assets";
 
 export const navlinks = [
   {
@@ -42,7 +42,7 @@ export const homeProjects = [
   },
   {
     id: 3,
-    image: Photo3,
+    image: Pizza,
     skill: "HTML TailwindCss React Solidity NextJs",
     title: "Kahoot Answers Viewer",
     descr: "Get answers to your Kahoot quiz",
