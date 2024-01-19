@@ -7,3 +7,4 @@ export { default as Experience1 } from "./work/Experience1";
 export { default as Experience2 } from "./work/Experience2";
 export { default as Experience3 } from "./work/Experience3";
 export { default as Footer } from "./Footer";
+export { default as SmallerProjects } from "./SmallerProjects";
