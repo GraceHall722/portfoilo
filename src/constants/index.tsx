@@ -183,3 +183,62 @@ export const tech2 = [
     title: "Figma",
   },
 ];
+
+export const webProjects = [
+  {
+    id: 1,
+    image: Pizza,
+    skill: "HTML TailwindCss React",
+    title: "ChertNodes",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+  },
+  {
+    id: 2,
+    image: Photo1,
+    skill: "HTML TailwindCss React",
+    title: "ChertNodes",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+  },
+  {
+    id: 3,
+    image: Photo2,
+    skill: "HTML TailwindCss React",
+    title: "ChertNodes",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+  },
+  {
+    id: 4,
+    image: Photo1,
+    skill: "HTML TailwindCss React",
+    title: "ChertNodes",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+  },
+  {
+    id: 5,
+    image: Photo2,
+    skill: "HTML TailwindCss React",
+    title: "ChertNodes",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+  },
+  {
+    id: 6,
+    image: Photo2,
+    skill: "HTML TailwindCss React",
+    title: "ChertNodes",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+  },
+  {
+    id: 7,
+    image: Photo2,
+    skill: "HTML TailwindCss React",
+    title: "ChertNodes",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+  },
+];
