@@ -18,6 +18,7 @@ import Discord from "./Discord.svg";
 import Twitter from "./Twitter.svg";
 import Figma from "./Figma.svg";
 import Pizza from "./Pizza.png";
+import Container from "./Container.svg";
 
 export {
   Logo,
@@ -40,4 +41,5 @@ export {
   Discord,
   Figma,
   Pizza,
+  Container,
 };
