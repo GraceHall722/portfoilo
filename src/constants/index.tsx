@@ -151,6 +151,10 @@ export const tech1 = [
     id: 7,
     title: "Solana",
   },
+  {
+    id: 8,
+    title: "IPFS",
+  },
 ];
 
 export const tech2 = [
