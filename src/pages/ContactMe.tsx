@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 const ContactMe = () => {
   const [isHoveredTwitter, setIsHoveredTwitter] = useState(false);
   const [isHoveredDiscord, setIsHoveredDiscord] = useState(false);
+
   return (
     <div>
       <section className="md:flex-row md:my-[150px] my-[50px] flex flex-col bg-[#0A192F]">
@@ -89,7 +90,7 @@ const ContactMe = () => {
           <h3 className="text-white">all-media</h3>
         </div>
         <div className="flex md:flex-row flex-col text-white  font-fira-code mt-2">
-          <Link to={"https://twitter.com/0xOse_eth"} className="flex">
+          <Link to={"https://twitter.com/Ose_eth"} className="flex">
             <img
               src={Twitter}
               onMouseEnter={() => setIsHoveredTwitter(true)}
@@ -99,7 +100,7 @@ const ContactMe = () => {
                 transition: "transform 0.3s ease-in-out",
               }}
             />
-            <h3 className="mx-[10px] pt-1 hover:text-[#64FFDB]">0xOse_eth</h3>
+            <h3 className="mx-[10px] pt-1 hover:text-[#64FFDB]">Ose_eth</h3>
           </Link>
           <Link to={"#"} className="flex">
             <img
