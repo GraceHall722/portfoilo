@@ -1,23 +1,37 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { homeProjects } from "../constants";
 import { useState, useEffect } from "react";
 
 const HomeProject = () => {
+  const { pathname } = useLocation();
+
   const [displayProjects, setDisplayProjects] = useState(homeProjects);
 
   useEffect(() => {
+    if (pathname === "/portfolio") {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname]);
+
+  useEffect(() => {
+    // This function adjusts the number of displayed projects based on the screen width
     const handleResize = () => {
       if (window.innerWidth >= 768 && window.innerWidth <= 1024) {
         // MD to MD1 screen sizes
+        // If the screen size is between 768px and 1024px, display 2 projects
         setDisplayProjects(homeProjects.slice(0, 2));
       } else {
+        // For any other screen size, display all projects
         setDisplayProjects(homeProjects);
       }
     };
 
+    // Add event listener for window resize
     window.addEventListener("resize", handleResize);
-    handleResize(); // Call once to set initial state
+    // Initial call to handleResize to set the initial state based on the current screen size
+    handleResize();
 
+    // Remove the event listener when the component is unmounted
     return () => {
       window.removeEventListener("resize", handleResize);
     };
