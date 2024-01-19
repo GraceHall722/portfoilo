@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { FixedSideSocials } from "../components";
-import { Square, Discord, Twitter } from "../assets";
+import { Square, Discord } from "../assets";
 import { contact } from "../constants";
 
 import { Link } from "react-router-dom";
+import { FaMediumM } from "react-icons/fa";
 
 const ContactMe = () => {
-  const [isHoveredTwitter, setIsHoveredTwitter] = useState(false);
   const [isHoveredDiscord, setIsHoveredDiscord] = useState(false);
+  const [isHoveredMedium, setIsHoveredMedium] = useState(false);
 
   return (
     <div>
@@ -90,18 +91,19 @@ const ContactMe = () => {
           <h3 className="text-white">all-media</h3>
         </div>
         <div className="flex md:flex-row flex-col text-white  font-fira-code mt-2">
-          <Link to={"https://twitter.com/Ose_eth"} className="flex">
-            <img
-              src={Twitter}
-              onMouseEnter={() => setIsHoveredTwitter(true)}
-              onMouseLeave={() => setIsHoveredTwitter(false)}
+          <Link to={"#"} className="flex">
+            <FaMediumM
+              className="text-[#b8bec9] text-[20px] mr-[px] mt-[5px]"
+              onMouseEnter={() => setIsHoveredMedium(true)}
+              onMouseLeave={() => setIsHoveredMedium(false)}
               style={{
-                transform: isHoveredTwitter ? "translateY(-5px)" : "none",
+                transform: isHoveredMedium ? "translateY(-5px)" : "none",
                 transition: "transform 0.3s ease-in-out",
               }}
             />
-            <h3 className="mx-[10px] pt-1 hover:text-[#64FFDB]">Ose_eth</h3>
+            <h3 className="mx-[10px] pt-1 hover:text-[#64FFDB]">Medium</h3>
           </Link>
+
           <Link to={"#"} className="flex">
             <img
               src={Discord}
