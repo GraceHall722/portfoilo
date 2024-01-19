@@ -1,4 +1,4 @@
-import { FixedSideSocials, Experience } from "../components";
+import { FixedSideSocials, Experience, SmallerProjects } from "../components";
 import { homeProjects, smallProjects, smallProjects2 } from "../constants";
 
 import { Link } from "react-router-dom";
@@ -100,6 +100,10 @@ const Portfolio = () => {
                 </Link>
               </div>
             ))}
+          </div>
+
+          <div className="md:ml-[150px] ml-[50px] mt-[50px]">
+            <SmallerProjects />
           </div>
 
           <div className="md:ml-[150px] ml-[50px] mt-[100px]">
