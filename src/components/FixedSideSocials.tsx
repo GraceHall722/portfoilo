@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
+import { RiGithubFill, RiLinkedinFill, RiTwitterXFill } from "react-icons/ri";
 import { SiSubstack } from "react-icons/si";
 import { Link } from "react-router-dom";
 
@@ -7,6 +7,7 @@ const FixedSideSocials = () => {
   const [isHoveredGithub, setIsHoveredGithub] = useState(false);
   const [isHoveredLinkedin, setIsHoveredLinkedin] = useState(false);
   const [isHoveredSubstack, setIsHoveredSubstack] = useState(false);
+  const [isHoveredTwitter, setIsHoveredTwitter] = useState(false);
 
   return (
     <div
@@ -15,7 +16,7 @@ const FixedSideSocials = () => {
     >
       <div className="flex flex-col space-y-8 items-center justify-center">
         <div className="flex flex-col space-y-3 items-center justify-center">
-          <div className="h-36 w-0.5 bg-gray-400 mt-0"></div>
+          <div className="h-36 w-0.5 bg-[#CCD6F6] mt-0"></div>
           <div
             style={{
               transform: isHoveredGithub ? "translateY(-5px)" : "none",
@@ -30,7 +31,7 @@ const FixedSideSocials = () => {
             >
               <RiGithubFill
                 size={24}
-                color={isHoveredGithub ? "#64FFDB" : "#939BA8"}
+                color={isHoveredGithub ? "#64FFDB" : "#CCD6F6"}
               />
             </Link>
           </div>
@@ -49,7 +50,7 @@ const FixedSideSocials = () => {
             >
               <RiLinkedinFill
                 size={24}
-                color={isHoveredLinkedin ? "#64FFDB" : "#939BA8"}
+                color={isHoveredLinkedin ? "#64FFDB" : "#CCD6F6"}
               />
             </Link>
           </div>
@@ -70,7 +71,27 @@ const FixedSideSocials = () => {
             >
               <SiSubstack
                 size={24}
-                color={isHoveredSubstack ? "#64FFDB" : "#939BA8"}
+                color={isHoveredSubstack ? "#64FFDB" : "#CCD6F6"}
+              />
+            </Link>
+          </div>
+
+          <div
+            style={{
+              transform: isHoveredTwitter ? "translateY(-5px)" : "none",
+              transition: "transform 0.3s ease-in-out",
+            }}
+          >
+            <Link
+              target="_blanck"
+              to={"https://twitter.com/Ose_eth"}
+              className="transform hover:scale-110"
+              onMouseEnter={() => setIsHoveredTwitter(true)}
+              onMouseLeave={() => setIsHoveredTwitter(false)}
+            >
+              <RiTwitterXFill
+                size={24}
+                color={isHoveredTwitter ? "#64FFDB" : "#CCD6F6"}
               />
             </Link>
           </div>
