@@ -18,7 +18,7 @@ const App = () => {
 
       <div className="relative">
         <img src={Frame25} className="absolute bottom-10 right-0" />
-        <img src={Frame28} className="absolute md:bottom-80 bottom-96 left-0" />
+        <img src={Frame28} className="absolute md:bottom-80 bottom-48 left-0" />
       </div>
 
       <Footer />
