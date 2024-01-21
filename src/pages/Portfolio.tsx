@@ -1,8 +1,6 @@
 import { FixedSideSocials, Experience, PortfolioProjects } from "../components";
 // import { homeProjects, smallProjects, smallProjects2 } from "../constants";
 
-// import { Link } from "react-router-dom";
-
 import { Frame29, Square } from "../assets";
 
 const Portfolio = () => {
