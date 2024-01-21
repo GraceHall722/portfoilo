@@ -1,7 +1,7 @@
-import { FixedSideSocials, Experience, SmallerProjects } from "../components";
-import { homeProjects, smallProjects, smallProjects2 } from "../constants";
+import { FixedSideSocials, Experience, PortfolioProjects } from "../components";
+// import { homeProjects, smallProjects, smallProjects2 } from "../constants";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import { Frame29, Square } from "../assets";
 
@@ -44,127 +44,14 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="md:flex-row flex-col flex space-x-4 justify-between items-center md:mx-[100px] mx-[50px] font-fira-code md1:mx-[150px] mt-[20px] mb-[50px]">
-            {homeProjects.map((project, index) => (
-              <div
-                key={project.id}
-                className={`border mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95 ${
-                  index === 0 ? "ml-[10px]" : ""
-                }`}
-              >
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full"
-                />
-                <div className="border text-[#939BA8]">
-                  <p className="mx-[20px]">{project.skill}</p>
-                </div>
-                <h2 className="text-white m-[20px] text-[25px]">
-                  {project.title}
-                </h2>
-                <p className="text-[#939ba8] mx-[20px]">{project.descr}</p>
-                <Link to={project.link}>
-                  <button className="border border-[#64FFDB] text-white text-[18px] font-bold m-[20px] p-[10px] transform transition duration-500 ease-in-out hover:scale-110 hover:border-[#FFBF00]">
-                    View Project
-                  </button>{" "}
-                </Link>
-              </div>
-            ))}
-          </div>
-
-          <div className="md:flex-row flex-col flex space-x-4 justify-between items-center md:mx-[100px] mx-[50px] font-fira-code md1:mx-[150px] mt-[20px] mb-[50px]">
-            {homeProjects.map((project, index) => (
-              <div
-                key={project.id}
-                className={`border mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95 ${
-                  index === 0 ? "ml-[10px]" : ""
-                }`}
-              >
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full"
-                />
-                <div className="border text-[#939BA8]">
-                  <p className="mx-[20px]">{project.skill}</p>
-                </div>
-                <h2 className="text-white m-[20px] text-[25px]">
-                  {project.title}
-                </h2>
-                <p className="text-[#939ba8] mx-[20px]">{project.descr}</p>
-                <Link to={project.link}>
-                  <button className="border border-[#64FFDB] text-white text-[18px] font-bold m-[20px] p-[10px] transform transition duration-500 ease-in-out hover:scale-110 hover:border-[#FFBF00]">
-                    View Project
-                  </button>{" "}
-                </Link>
-              </div>
-            ))}
-          </div>
-
-          <div className="md:ml-[150px] ml-[50px] mt-[50px]">
-            <SmallerProjects />
-          </div>
-
-          <div className="md:ml-[150px] ml-[50px] mt-[100px]">
-            <div className="md:text-[25px] text-[18px] flex">
-              <span className="text-[#FFBF00]">#</span>
-              <h3 className="text-white">smart-contracts</h3>
-            </div>
-          </div>
-
-          <div className="md:flex-row flex-col flex space-x-4 justify-between items-center md:mx-[100px] mx-[50px] font-fira-code md1:mx-[150px] mt-[20px] mb-[50px]">
-            {smallProjects.map((project, index) => (
-              <div
-                key={project.id}
-                className={`border mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95 ${
-                  index === 0 ? "ml-[10px]" : ""
-                }`}
-              >
-                <div className="border text-[#939BA8]">
-                  <p className="mx-[20px]">{project.skill}</p>
-                </div>
-                <h2 className="text-white m-[20px] text-[25px]">
-                  {project.title}
-                </h2>
-                <p className="text-[#939ba8] mx-[20px]">{project.descr}</p>
-                <Link to={project.link}>
-                  <button className="border border-[#64FFDB] text-white text-[18px] font-bold m-[20px] p-[10px] transform transition duration-500 ease-in-out hover:scale-110 hover:border-[#FFBF00]">
-                    View Project
-                  </button>{" "}
-                </Link>
-              </div>
-            ))}
-          </div>
-
-          <div className="md:flex-row flex-col flex space-x-4 justify-between items-center md:mx-[100px] mx-[50px] font-fira-code md1:mx-[150px] mt-[20px] mb-[50px]">
-            {smallProjects2.map((project, index) => (
-              <div
-                key={project.id}
-                className={`border mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95 ${
-                  index === 0 ? "ml-[10px]" : ""
-                }`}
-              >
-                <div className="border text-[#939BA8]">
-                  <p className="mx-[20px]">{project.skill}</p>
-                </div>
-                <h2 className="text-white m-[20px] text-[25px]">
-                  {project.title}
-                </h2>
-                <p className="text-[#939ba8] mx-[20px]">{project.descr}</p>
-                <Link to={project.link}>
-                  <button className="border border-[#64FFDB] text-white text-[18px] font-bold m-[20px] p-[10px] transform transition duration-500 ease-in-out hover:scale-110 hover:border-[#FFBF00]">
-                    View Project
-                  </button>{" "}
-                </Link>
-              </div>
-            ))}
+          <div className="">
+            <PortfolioProjects />
           </div>
         </div>
 
         <img
           src={Frame29}
-          className="absolute md:bottom-10 md:flex hidden left-0"
+          className="absolute md:bottom-10 md:flex hidden right-4"
         />
         <img src={Square} className="absolute md:bottom-10 top-36 right-0" />
         {/* <img
