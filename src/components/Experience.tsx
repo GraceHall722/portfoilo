@@ -57,7 +57,7 @@ const Experience = () => {
         <button
           id="chainlink"
           onClick={() => setActiveButtonId("chainlink")}
-          className={`md:my-[0px] p-[10px] w-[180px] md:border-l-2 md:rounded-r-md border-[#FFBF00] cursor-pointer hover:bg-[#153041] ${
+          className={`md:my-[0px] p-[10px] w-[180px] md:border-l-2 md:rounded-r-lg border-[#FFBF00] cursor-pointer hover:bg-[#153041] ${
             activeButtonId === "chainlink" ? "bg-[#153041] text-[#64ffdb]" : ""
           }`}
         >
