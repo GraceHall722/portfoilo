@@ -44,7 +44,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="">
+          <div className="md:flex hidden">
             <PortfolioProjects />
           </div>
         </div>
