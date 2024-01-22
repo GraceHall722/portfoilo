@@ -14,7 +14,7 @@ const PortfolioProjects2 = () => {
   };
 
   return (
-    <section className="mb-[180px]">
+    <section className="mb-[10px]">
       <div className="md:flex hidden justify-end font-fira-code flex-row">
         <div className="flex flex-col mr-[120px] mt-[60px] text-[#939BA8]">
           {project2.map((project, index) => (
@@ -33,7 +33,7 @@ const PortfolioProjects2 = () => {
       <div className="flex justify-start ml-[150px] -mt-[260px] ">
         {selectedProjectIndex !== -1 && (
           <div>
-            <div className="text-[12px] text-[#f6cb49]">
+            <div className="text-[12px] text-[#64ffdb]">
               {webProjects[selectedProjectIndex].tag}
             </div>
             <h2 className="text-[#b6c1e0] text-[20px]">
@@ -58,7 +58,7 @@ const PortfolioProjects2 = () => {
                 <Link to={webProjects[selectedProjectIndex].github}>
                   <FiGithub
                     size={24}
-                    color={isHoveredGithub ? "#64FFDB" : "#CCD6F6"}
+                    color={isHoveredGithub ? "#f6cb49" : "#CCD6F6"}
                     onMouseEnter={() => setIsHoveredGithub(true)}
                     onMouseLeave={() => setIsHoveredGithub(false)}
                   />
@@ -68,7 +68,7 @@ const PortfolioProjects2 = () => {
                 <Link to={webProjects[selectedProjectIndex].link}>
                   <FiExternalLink
                     size={24}
-                    color={isHoveredLink ? "#64FFDB" : "#CCD6F6"}
+                    color={isHoveredLink ? "#f6cb49" : "#CCD6F6"}
                     onMouseEnter={() => setIsHoveredLink(true)}
                     onMouseLeave={() => setIsHoveredLink(false)}
                   />
