@@ -1,4 +1,9 @@
-import { FixedSideSocials, Experience, PortfolioProjects } from "../components";
+import {
+  FixedSideSocials,
+  Experience,
+  PortfolioProjects1,
+  PortfolioProjects2,
+} from "../components";
 // import { homeProjects, smallProjects, smallProjects2 } from "../constants";
 
 import { Frame29, Square } from "../assets";
@@ -43,7 +48,11 @@ const Portfolio = () => {
           </div>
 
           <div className="md:flex hidden">
-            <PortfolioProjects />
+            <PortfolioProjects1 />
+          </div>
+
+          <div className="">
+            <PortfolioProjects2 />
           </div>
         </div>
 
