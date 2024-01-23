@@ -188,57 +188,135 @@ export const webProjects = [
   {
     id: 1,
     image: Pizza,
+    tag: "DApp",
     skill: "HTML TailwindCss React",
     title: "ChertNodes",
     descr: "Minecraft server glitch Discord anti-crash bot",
     link: "#",
+    github: "#",
   },
   {
     id: 2,
     image: Photo1,
+    tag: "DApp",
     skill: "HTML TailwindCss React",
-    title: "ChertNodes",
+    title: "ABCDEF",
     descr: "Minecraft server glitch Discord anti-crash bot",
     link: "#",
+    github: "#",
   },
   {
     id: 3,
     image: Photo2,
+    tag: "DApp Project",
     skill: "HTML TailwindCss React",
-    title: "ChertNodes",
+    title: "sgdhfjf",
     descr: "Minecraft server glitch Discord anti-crash bot",
     link: "#",
+    github: "#",
   },
   {
     id: 4,
     image: Photo1,
+    tag: "DApp Project",
     skill: "HTML TailwindCss React",
-    title: "ChertNodes",
+    title: "cvgf",
     descr: "Minecraft server glitch Discord anti-crash bot",
     link: "#",
+    github: "#",
   },
   {
     id: 5,
     image: Photo2,
+    tag: "DApp Project",
     skill: "HTML TailwindCss React",
     title: "ChertNodes",
     descr: "Minecraft server glitch Discord anti-crash bot",
     link: "#",
+    github: "#",
   },
   {
     id: 6,
     image: Photo2,
-    skill: "HTML TailwindCss React",
-    title: "ChertNodes",
+    tag: "App Project",
+    skill: "HTML TailwindCss Reac",
+    title: "sgdhfjgfdjg",
     descr: "Minecraft server glitch Discord anti-crash bot",
     link: "#",
+    github: "#",
   },
   {
     id: 7,
     image: Photo2,
+    tag: "App Project",
     skill: "HTML TailwindCss React",
-    title: "ChertNodes",
+    title: "bnmdfkkk",
+    descr:
+      "Minecraft server glitch Discord anti-crash bot Discord anti-crash bot Discord anti-crash bot Discord anti-crash bot Discord anti-crash bot Discord anti-crash bot Discord.",
+    link: "#",
+    github: "#",
+  },
+  {
+    id: 8,
+    image: Photo2,
+    skill: "HTML TailwindCss React",
+    title: "bnmdfasdffvkkk",
     descr: "Minecraft server glitch Discord anti-crash bot",
     link: "#",
+    github: "#",
+  },
+];
+
+export const project1 = [
+  {
+    id: 1,
+    name: "Streamvibe WebApp",
+  },
+  {
+    id: 2,
+    name: "NFTMarketPlace",
+  },
+  {
+    id: 3,
+    name: "CryptoWhale DApp",
+  },
+  {
+    id: 4,
+    name: "Multihain Exchange DApp",
+  },
+  {
+    id: 5,
+    name: "Similar Projects00",
+  },
+  {
+    id: 6,
+    name: "Similar Projects01",
+  },
+  {
+    id: 7,
+    name: "Similar Projects02",
+  },
+];
+
+export const project2 = [
+  {
+    id: 1,
+    name: "Streamvibe WebApp",
+  },
+  {
+    id: 2,
+    name: "NFTMarketPlace",
+  },
+  {
+    id: 3,
+    name: "CryptoWhale DApp",
+  },
+  {
+    id: 4,
+    name: "Multihain Exchange DApp",
+  },
+  {
+    id: 5,
+    name: "Similar Projects00",
   },
 ];
