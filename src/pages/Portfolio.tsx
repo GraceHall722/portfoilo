@@ -45,6 +45,9 @@ const Portfolio = () => {
               <span className="text-[#FFBF00]">#</span>
               <h3 className="text-white">complete-dapps</h3>
             </div>
+            <div className="text-[#939BA8] md:hidden font-fira-code text-[17px] mt-[20px] -mb-[10px]">
+              //Scroll to the left to see more projects
+            </div>
           </div>
 
           <div className="flex ">
