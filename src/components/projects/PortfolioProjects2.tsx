@@ -21,7 +21,7 @@ const PortfolioProjects2 = () => {
             <div className="inline-block">
               <button
                 key={project.id}
-                className={`p-[10px] w-[180px] md:border-r-2 border-[#f6cb49] md:rounded-l-lg cursor-pointer hover:bg-[#153041] ${
+                className={`p-[10px] w-[180px] md:border-r-2 border-[#f6cb49] md:rounded-l-lg cursor-pointer hover:bg-[#153041]  mx-[5px] md:mx-[0px] ${
                   index === selectedProjectIndex
                     ? "text-[#64ffdb] bg-[#153041]"
                     : ""
@@ -29,7 +29,13 @@ const PortfolioProjects2 = () => {
                 style={{ textAlign: "right" }}
                 onClick={() => handleClick(index)}
               >
-                <div>{project.name}</div>
+                <div
+                  className={`${
+                    index === 1 ? "mr-[8px]" : index === 3 ? "mr-[8px]" : ""
+                  }`}
+                >
+                  {project.name}
+                </div>
               </button>
             </div>
           ))}
