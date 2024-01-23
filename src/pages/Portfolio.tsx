@@ -4,7 +4,6 @@ import {
   PortfolioProjects1,
   PortfolioProjects2,
 } from "../components";
-// import { homeProjects, smallProjects, smallProjects2 } from "../constants";
 
 import { Frame29, Square } from "../assets";
 
