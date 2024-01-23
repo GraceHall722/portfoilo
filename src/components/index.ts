@@ -9,3 +9,4 @@ export { default as Experience3 } from "./work/Experience3";
 export { default as Footer } from "./Footer";
 export { default as PortfolioProjects1 } from "./projects/PortfolioProjects1";
 export { default as PortfolioProjects2 } from "./projects/PortfolioProjects2";
+export { default as MobileProject1 } from "./projects/ProjectMobile/MobileProject1";
