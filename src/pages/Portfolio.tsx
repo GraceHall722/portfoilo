@@ -3,6 +3,7 @@ import {
   Experience,
   PortfolioProjects1,
   PortfolioProjects2,
+  MobileProject1,
 } from "../components";
 // import { homeProjects, smallProjects, smallProjects2 } from "../constants";
 
@@ -53,6 +54,10 @@ const Portfolio = () => {
 
           <div className="">
             <PortfolioProjects2 />
+          </div>
+
+          <div className="md:hidden flex ml-[50px] mt-[20px]">
+            <MobileProject1 />
           </div>
         </div>
 
