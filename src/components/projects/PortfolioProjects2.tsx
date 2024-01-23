@@ -30,7 +30,7 @@ const PortfolioProjects2 = () => {
         </div>
       </div>
 
-      <div className="flex justify-start ml-[150px] -mt-[260px] ">
+      <div className="md:flex justify-start ml-[150px] -mt-[260px] hidden">
         {selectedProjectIndex !== -1 && (
           <div>
             <div className="text-[12px] text-[#64ffdb]">
