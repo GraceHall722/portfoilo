@@ -15,22 +15,28 @@ const PortfolioProjects2 = () => {
 
   return (
     <section className="mb-[10px]">
-      <div className="md:flex hidden justify-end font-fira-code flex-row">
-        <div className="flex flex-col mr-[120px] mt-[60px] text-[#939BA8]">
+      <div className="flex justify-end font-fira-code flex-col md:flex-row">
+        <div className="flex flex-row md:flex-col md:mr-[90px] mr-[50px] mt-[60px] text-[#939BA8] overflow-x-auto md:overflow-x-visible md:w-[200px] ssm:w-96 whitespace-nowrap ml-[50px] md:ml-0 ">
           {project2.map((project, index) => (
-            <button
-              key={project.id}
-              className="p-[10px] w-[180px] border-r-2 border-[#f6cb49] rounded-l-lg cursor-pointer hover:bg-[#153041]  "
-              style={{ textAlign: "right" }}
-              onClick={() => handleClick(index)}
-            >
-              <div>{project.name}</div>
-            </button>
+            <div className="inline-block">
+              <button
+                key={project.id}
+                className={`p-[10px] w-[180px] md:border-r-2 border-[#f6cb49] md:rounded-l-lg cursor-pointer hover:bg-[#153041] ${
+                  index === selectedProjectIndex
+                    ? "text-[#64ffdb] bg-[#153041]"
+                    : ""
+                } `}
+                style={{ textAlign: "right" }}
+                onClick={() => handleClick(index)}
+              >
+                <div>{project.name}</div>
+              </button>
+            </div>
           ))}
         </div>
       </div>
 
-      <div className="md:flex justify-start ml-[150px] -mt-[260px] hidden">
+      <div className="md:flex justify-start md:ml-[150px] m-[50px] md:-mt-[260px] mt-[50px] ">
         {selectedProjectIndex !== -1 && (
           <div>
             <div className="text-[12px] text-[#64ffdb]">
@@ -48,7 +54,7 @@ const PortfolioProjects2 = () => {
                 alt=""
                 className="md1:w-96 w-72 rounded border-2 border-[#f6cb49]"
               />
-              <div className="absolute inset-0 bg-[#122e3f] opacity-50 backdrop-blur-md hover:opacity-0 transition duration-500"></div>
+              <div className="absolute inset-0 bg-[#122e3f] opacity-50 backdrop-blur-md hover:opacity-0 transition duration-500 md1:w-96 ssm:w-72 ss:w-[288px] ssl:w-[288px] "></div>
               <p className="absolute text-[14px] md1:w-[360px] w-[180px] bg-[#112240] p-[20px] rounded md1:mx-[65px] text-[#B6C1E0] md1:-mt-[80px] -mt-[40px] md1:h-[150px] mx-[35px]">
                 {webProjects[selectedProjectIndex].descr}
               </p>
