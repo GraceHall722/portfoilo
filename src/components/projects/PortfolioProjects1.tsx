@@ -15,20 +15,26 @@ const PortfolioProjects1 = () => {
 
   return (
     <section className="">
-      <div className="font-fira-code flex flex-row">
-        <div className="md:ml-[150px] ml-[50px] flex-col flex mt-[60px] text-[#939BA8]">
+      <div className="font-fira-code flex md:flex-row flex-col">
+        <div className="md:ml-[150px] ml-[50px] md:flex-col flex-row flex mt-[60px] text-[#939BA8] overflow-x-auto md:overflow-x-visible md:w-[200px] w-72 ssm:w-96 whitespace-nowrap">
           {project1.map((project, index) => (
-            <button
-              key={project.id}
-              className="p-[10px] w-[180px] border-l-2 border-[#64ffdb] rounded-r-lg cursor-pointer hover:bg-[#f6cb49] hover:text-black "
-              onClick={() => handleClick(index)}
-              style={{ textAlign: "left" }}
-            >
-              <div>{project.name}</div>
-            </button>
+            <div className="inline-block">
+              <button
+                key={project.id}
+                className={`p-[10px] w-[180px] md:border-l-2 border-[#64ffdb] md:rounded-r-lg cursor-pointer hover:bg-[#f6cb49] hover:text-black ${
+                  index === selectedProjectIndex
+                    ? "text-[black] bg-[#f6cb49]"
+                    : ""
+                }`}
+                onClick={() => handleClick(index)}
+                style={{ textAlign: "left" }}
+              >
+                <div>{project.name}</div>
+              </button>
+            </div>
           ))}
         </div>
-        <div className="m-[100px] mt-[50px] lg:w-[480px]">
+        <div className="md:m-[100px] m-[50px] mt-[50px] md:w-fit w- lg:w-[480px] md:flex">
           {selectedProjectIndex !== -1 && (
             <div className="">
               <div className="text-[12px] text-[#f6cb49]">
@@ -44,7 +50,7 @@ const PortfolioProjects1 = () => {
                 <img
                   src={webProjects[selectedProjectIndex].image}
                   alt=""
-                  className="w-screen rounded border-2 border-[#64ffdb]"
+                  className="md:w-screen w-[360px] rounded border-2 border-[#64ffdb]"
                 />
                 <div className="absolute inset-0 bg-[#122e3f] opacity-50 backdrop-blur-md hover:opacity-0 transition duration-500"></div>
                 <p className="absolute text-[14px] md1:w-[360px] w-[180px] bg-[#112240] p-[20px] rounded md1:mx-[65px] text-[#B6C1E0] md1:-mt-[80px] -mt-[40px] md1:h-[150px] mx-[35px]">
