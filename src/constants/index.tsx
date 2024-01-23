@@ -251,8 +251,7 @@ export const webProjects = [
     tag: "App Project",
     skill: "HTML TailwindCss React",
     title: "bnmdfkkk",
-    descr:
-      "Minecraft server glitch Discord anti-crash bot Discord anti-crash bot Discord anti-crash bot Discord anti-crash bot Discord anti-crash bot Discord anti-crash bot Discord.",
+    descr: "Minecraft server glitch Discord anti-crash bot Discord.",
     link: "#",
     github: "#",
   },
@@ -282,19 +281,19 @@ export const project1 = [
   },
   {
     id: 4,
-    name: "Multihain Exchange DApp",
+    name: "Multihain DApp",
   },
   {
     id: 5,
-    name: "Similar Projects00",
+    name: "Similar Projects",
   },
   {
     id: 6,
-    name: "Similar Projects01",
+    name: "Similar Projects",
   },
   {
     id: 7,
-    name: "Similar Projects02",
+    name: "Similar Projects",
   },
 ];
 
@@ -313,10 +312,10 @@ export const project2 = [
   },
   {
     id: 4,
-    name: "Multihain Exchange DApp",
+    name: "Multihain DApp",
   },
   {
     id: 5,
-    name: "Similar Projects00",
+    name: "Similar Projects",
   },
 ];
