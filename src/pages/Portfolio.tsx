@@ -3,7 +3,6 @@ import {
   Experience,
   PortfolioProjects1,
   PortfolioProjects2,
-  MobileProject1,
 } from "../components";
 // import { homeProjects, smallProjects, smallProjects2 } from "../constants";
 
@@ -36,7 +35,7 @@ const Portfolio = () => {
               <span className="text-[#64FFDB]">/</span>
               <h3 className="text-white">projects</h3>
             </div>
-            <div className="text-white md:text-[20px] mb-[100px] text-[35px]">
+            <div className="text-white md:text-[20px] mb-[50px] text-[35px]">
               List of my projects
             </div>
           </div>
@@ -48,16 +47,12 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="md:flex hidden">
+          <div className="flex ">
             <PortfolioProjects1 />
           </div>
 
           <div className="">
             <PortfolioProjects2 />
-          </div>
-
-          <div className="md:hidden flex ml-[50px] mt-[20px]">
-            <MobileProject1 />
           </div>
         </div>
 
