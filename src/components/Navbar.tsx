@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { navlinks } from "../constants";
 import { NavLink, useLocation } from "react-router-dom";
-import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
+import { RiGithubFill, RiLinkedinFill, RiTwitterXFill } from "react-icons/ri";
 import { SiSubstack } from "react-icons/si";
 import { Link } from "react-router-dom";
 
@@ -15,6 +15,7 @@ const Navbar = () => {
   const [isHoveredGithub, setIsHoveredGithub] = useState(false);
   const [isHoveredLinkedin, setIsHoveredLinkedin] = useState(false);
   const [isHoveredSubstack, setIsHoveredSubstack] = useState(false);
+  const [isHoveredTwitter, setIsHoveredTwitter] = useState(false);
 
   useEffect(() => {
     setActiveLink(location.pathname);
@@ -145,6 +146,26 @@ const Navbar = () => {
                     color={"#939BA8"}
                     onMouseEnter={() => setIsHoveredSubstack(true)}
                     onMouseLeave={() => setIsHoveredSubstack(false)}
+                  />
+                </Link>
+              </div>
+              <div
+                style={{
+                  transform: isHoveredTwitter ? "translateY(-5px)" : "none",
+                  transition: "transform 0.3s ease-in-out",
+                }}
+                className="mt-[100px] mx-[10px]"
+              >
+                <Link
+                  target="_blanck"
+                  to={"https://twitter.com/Ose_eth"}
+                  onMouseEnter={() => setIsHoveredTwitter(true)}
+                  onMouseLeave={() => setIsHoveredTwitter(false)}
+                >
+                  <RiTwitterXFill
+                    size={30}
+                    color={"#939ba8"}
+                    // color={isHoveredTwitter ? "#64FFDB" : "#CCD6F6"}
                   />
                 </Link>
               </div>
