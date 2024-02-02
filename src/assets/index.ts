@@ -19,6 +19,8 @@ import Twitter from "./Twitter.svg";
 import Figma from "./Figma.svg";
 import Pizza from "./Pizza.png";
 import Container from "./Container.svg";
+import streamvibe from "./streamvibe.png";
+import CryptoDashboard from "./CryptoDashboard.png";
 
 export {
   Logo,
@@ -42,4 +44,6 @@ export {
   Figma,
   Pizza,
   Container,
+  streamvibe,
+  CryptoDashboard,
 };
