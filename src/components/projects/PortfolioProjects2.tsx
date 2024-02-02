@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
-import { project2, webProjects } from "../../constants";
+import { project2, webProjects2 } from "../../constants";
 
 const PortfolioProjects2 = () => {
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
@@ -46,28 +46,28 @@ const PortfolioProjects2 = () => {
         {selectedProjectIndex !== -1 && (
           <div>
             <div className="text-[12px] text-[#64ffdb]">
-              {webProjects[selectedProjectIndex].tag}
+              {webProjects2[selectedProjectIndex].tag}
             </div>
             <h2 className="text-[#b6c1e0] text-[20px]">
-              {webProjects[selectedProjectIndex].title}
+              {webProjects2[selectedProjectIndex].title}
             </h2>
             <div className="text-[#B6C1E0]">
-              {webProjects[selectedProjectIndex].skill}
+              {webProjects2[selectedProjectIndex].skill}
             </div>
             <div className="relative">
               <img
-                src={webProjects[selectedProjectIndex].image}
+                src={webProjects2[selectedProjectIndex].image}
                 alt=""
                 className="md1:w-96 w-72 rounded border-2 border-[#f6cb49]"
               />
               <div className="absolute inset-0 bg-[#122e3f] opacity-50 backdrop-blur-md hover:opacity-0 transition duration-500 md1:w-96 ssm:w-72 ss:w-[288px] ssl:w-[288px] "></div>
               <p className="absolute text-[14px] md1:w-[360px] w-[180px] bg-[#112240] p-[20px] rounded md1:mx-[65px] text-[#B6C1E0] md1:-mt-[80px] -mt-[40px] md1:h-[150px] mx-[35px]">
-                {webProjects[selectedProjectIndex].descr}
+                {webProjects2[selectedProjectIndex].descr}
               </p>
             </div>
             <div className="flex mt-[100px] md1:ml-[220px] ml-[100px]">
               <div className="px-[5px] cursor-pointer">
-                <Link to={webProjects[selectedProjectIndex].github}>
+                <Link to={webProjects2[selectedProjectIndex].github}>
                   <FiGithub
                     size={24}
                     color={isHoveredGithub ? "#f6cb49" : "#CCD6F6"}
@@ -77,7 +77,7 @@ const PortfolioProjects2 = () => {
                 </Link>
               </div>
               <div className="px-[5px] cursor-pointer">
-                <Link to={webProjects[selectedProjectIndex].link}>
+                <Link to={webProjects2[selectedProjectIndex].link}>
                   <FiExternalLink
                     size={24}
                     color={isHoveredLink ? "#f6cb49" : "#CCD6F6"}
