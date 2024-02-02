@@ -59,7 +59,7 @@ const PortfolioProjects1 = () => {
                   className="md:w-screen w-[360px] rounded border-2 border-[#64ffdb]"
                 />
                 <div className="absolute inset-0 bg-[#122e3f] opacity-50 backdrop-blur-md hover:opacity-0 transition duration-500"></div>
-                <p className="absolute text-[14px] md1:w-[360px] w-[180px] bg-[#112240] p-[20px] rounded md1:mx-[65px] text-[#B6C1E0] md1:-mt-[80px] -mt-[40px] md1:h-[150px] mx-[35px]">
+                <p className="absolute text-[14px] md1:w-[360px] w-[180px] bg-[#112240] p-[20px] rounded md1:mx-[65px] text-[#B6C1E0] md1:-mt-[80px]  -mt-[40px] md1:h-[150px] mx-[35px]">
                   {webProjects[selectedProjectIndex].descr}
                 </p>
               </div>
