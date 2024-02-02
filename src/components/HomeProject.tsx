@@ -61,13 +61,13 @@ const HomeProject = () => {
         {displayProjects.map((project, index) => (
           <div
             key={project.id}
-            className={`border mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95 ${
+            className={`border border-[#227b59]  mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95 ${
               index === 0 ? "ml-[10px]" : ""
             }`}
           >
             <img src={project.image} alt={project.title} className="w-full" />
-            <div className="border text-[#939BA8]">
-              <p className="mx-[20px]">{project.skill}</p>
+            <div className="border border-[#575454] text-[#939BA8]">
+              <p className="mx-[20px] py-[5px]">{project.skill}</p>
             </div>
             <h2 className="text-white m-[20px] text-[25px]">{project.title}</h2>
             <p className="text-[#939ba8] mx-[20px]">{project.descr}</p>
