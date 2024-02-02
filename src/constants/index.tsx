@@ -1,4 +1,12 @@
-import { Photo1, Photo2, Telegram, Email, Pizza } from "../assets";
+import {
+  Photo1,
+  Photo2,
+  Telegram,
+  Email,
+  Pizza,
+  streamvibe,
+  CryptoDashboard,
+} from "../assets";
 
 export const navlinks = [
   {
@@ -26,25 +34,26 @@ export const navlinks = [
 export const homeProjects = [
   {
     id: 1,
-    image: Photo1,
-    skill: "HTML TailwindCss React",
+    image: CryptoDashboard,
+    skill: "Next.js TailwindCss Typescript AlchemyAPI",
     title: "ChertNodes",
     descr: "Minecraft server glitch Discord anti-crash bot",
     link: "#",
   },
   {
     id: 2,
-    image: Photo2,
-    skill: "HTML CSS React EthersJs Rust Solana",
-    title: "ProtectX",
-    descr: "Discord anti-crash bot Discord anti-crash bot",
+    image: streamvibe,
+    skill: "Typescript React TailwindCss RestAPI Figma",
+    title: "StreamVibe Movie WebApp",
+    descr:
+      "A Movie Streaming WebApp. Built with Typescxript and React, using Api to fetch movie data",
     link: "#",
   },
   {
     id: 3,
     image: Pizza,
     skill: "HTML TailwindCss React Solidity NextJs",
-    title: "Kahoot Answers Viewer",
+    title: "Pizza Resturant App",
     descr: "Get answers to your Kahoot quiz",
     link: "#",
   },
@@ -187,23 +196,24 @@ export const tech2 = [
 export const webProjects = [
   {
     id: 1,
-    image: Pizza,
+    image: CryptoDashboard,
     tag: "DApp",
-    skill: "HTML TailwindCss React",
-    title: "ChertNodes",
+    skill: "Next TailwindCss TailwindCss Ethers Subgraphs AlchemyAPI",
+    title: "ABCDEF",
     descr: "Minecraft server glitch Discord anti-crash bot",
     link: "#",
     github: "#",
   },
   {
     id: 2,
-    image: Photo1,
+    image: streamvibe,
     tag: "DApp",
-    skill: "HTML TailwindCss React",
-    title: "ABCDEF",
-    descr: "Minecraft server glitch Discord anti-crash bot",
+    skill: "HTML TailwindCss React Figma",
+    title: "ChertNodes",
+    descr:
+      "A Movie Streaming WebApp. Built with Typescxript and React, using Api to fetch movie data. StreamVibe is the best streaming experience for watching your favorite movies.",
     link: "#",
-    github: "#",
+    github: "https://github.com/Patrick-Ehimen/streamvibes-movies-app",
   },
   {
     id: 3,
@@ -260,6 +270,59 @@ export const webProjects = [
     image: Photo2,
     skill: "HTML TailwindCss React",
     title: "bnmdfasdffvkkk",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+    github: "#",
+  },
+];
+
+export const webProjects2 = [
+  {
+    id: 1,
+    image: Photo2,
+    tag: "DApp",
+    skill: "HTML TailwindCss React",
+    title: "ChertNodes",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+    github: "#",
+  },
+  {
+    id: 2,
+    image: Pizza,
+    tag: "DApp",
+    skill: "HTML TailwindCss React",
+    title: "ABCDEF",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+    github: "#",
+  },
+  {
+    id: 3,
+    image: Photo2,
+    tag: "DApp Project",
+    skill: "HTML TailwindCss React",
+    title: "sgdhfjf",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+    github: "#",
+  },
+  {
+    id: 4,
+    image: Photo1,
+    tag: "DApp Project",
+    skill: "HTML TailwindCss React",
+    title: "cvgf",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+    github: "#",
+  },
+  {
+    id: 5,
+    image: Photo2,
+    tag: "DApp Project",
+    skill: "HTML TailwindCss React",
+    title: "ChertNodes",
     descr: "Minecraft server glitch Discord anti-crash bot",
     link: "#",
     github: "#",
