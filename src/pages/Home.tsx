@@ -76,7 +76,9 @@ const Home = () => {
             <div className="my-3 ml-2">
               Currently Working on{" "}
               <Link to={"#"}>
-                <span className="font-bold text-[#ffbf00]">Portfolio</span>
+                <span className="font-bold text-[#ffbf00]">
+                  CryptoDashboard
+                </span>
               </Link>
             </div>
           </div>
