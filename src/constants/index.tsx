@@ -6,6 +6,8 @@ import {
   Pizza,
   streamvibe,
   CryptoDashboard,
+  Swift,
+  WalletBalance,
 } from "../assets";
 
 export const navlinks = [
@@ -37,7 +39,8 @@ export const homeProjects = [
     image: CryptoDashboard,
     skill: "Next.js TailwindCss Typescript AlchemyAPI",
     title: "ChertNodes",
-    descr: "Minecraft server glitch Discord anti-crash bot",
+    descr:
+      "A web3 dashboard that aggregates all user portfolio values in real time.",
     link: "#",
   },
   {
@@ -46,16 +49,17 @@ export const homeProjects = [
     skill: "Typescript React TailwindCss RestAPI Figma",
     title: "StreamVibe Movie WebApp",
     descr:
-      "A Movie Streaming WebApp. Built with Typescxript and React, using Api to fetch movie data",
+      "A Movie Streaming WebApp. Built with Typescxript and React, using RapidApi to fetch movie data to the frontend.",
     link: "#",
   },
   {
     id: 3,
     image: Pizza,
-    skill: "HTML TailwindCss React Solidity NextJs",
+    skill: "HTML Css Tailwindcss React Javascript",
     title: "Pizza Resturant App",
-    descr: "Get answers to your Kahoot quiz",
-    link: "#",
+    descr:
+      "With this app users can place an order for thier favourite pizza. A user can also choose to add a priority fee to hasten the delivery time.",
+    link: "https://pizza-resturant-mu.vercel.app/",
   },
 ];
 
@@ -198,18 +202,19 @@ export const webProjects = [
     id: 1,
     image: CryptoDashboard,
     tag: "DApp",
-    skill: "Next TailwindCss TailwindCss Ethers Subgraphs AlchemyAPI",
-    title: "ABCDEF",
-    descr: "Minecraft server glitch Discord anti-crash bot",
+    skill: "Next TailwindCss TailwindCss Ethers Subgraphs AlchemyAPI Figma",
+    title: "CryptoDashboard",
+    descr:
+      "A web3 dashboard that aggregates all user portfolio values in real time. The DApp also aggregates relevant crypto data such as news, token prices, etc into clean UI.",
     link: "#",
     github: "#",
   },
   {
     id: 2,
     image: streamvibe,
-    tag: "DApp",
-    skill: "HTML TailwindCss React Figma",
-    title: "ChertNodes",
+    tag: "WebApp Project",
+    skill: "HTML TailwindCss React Figma Typescript",
+    title: "Streamvibe Movie WebApp ",
     descr:
       "A Movie Streaming WebApp. Built with Typescxript and React, using Api to fetch movie data. StreamVibe is the best streaming experience for watching your favorite movies.",
     link: "#",
@@ -227,40 +232,43 @@ export const webProjects = [
   },
   {
     id: 4,
-    image: Photo1,
+    image: Swift,
     tag: "DApp Project",
-    skill: "HTML TailwindCss React",
-    title: "cvgf",
-    descr: "Minecraft server glitch Discord anti-crash bot",
-    link: "#",
-    github: "#",
+    skill: "TailwindCss React Javascript Figma",
+    title: "Swift Blockchain LandingPage",
+    descr:
+      "A simple langing page for a Blockchain network. Built with Javascript+React and styled with tailwindcss.",
+    link: "https://m2e-landing-page.vercel.app/",
+    github: "https://github.com/Patrick-Ehimen/m2e-landing-page",
   },
   {
     id: 5,
-    image: Photo2,
-    tag: "DApp Project",
-    skill: "HTML TailwindCss React",
-    title: "ChertNodes",
-    descr: "Minecraft server glitch Discord anti-crash bot",
-    link: "#",
-    github: "#",
+    image: Pizza,
+    tag: "WebApp Project",
+    skill: "CSS React Javascript",
+    title: "Pizza Resturant",
+    descr:
+      "With this app users can place an order for thier favourite pizza. A user can also choose to add a priority fee to hasten the delivery time.",
+    link: "https://pizza-resturant-mu.vercel.app/",
+    github: "https://github.com/Patrick-Ehimen/PizzaResturant",
   },
   {
     id: 6,
-    image: Photo2,
-    tag: "App Project",
-    skill: "HTML TailwindCss Reac",
-    title: "sgdhfjgfdjg",
-    descr: "Minecraft server glitch Discord anti-crash bot",
-    link: "#",
-    github: "#",
+    image: WalletBalance,
+    tag: "Web3 Project",
+    skill: "CSS Javascript Next Moralis",
+    title: "erc20-token-balances",
+    descr:
+      "A simple UI used to interact and read data from the blockchain. With this DAoo users can find the balance of any ERC20 token.",
+    link: "https://wallet-token-balances.vercel.app/",
+    github: "https://github.com/Patrick-Ehimen/wallet-token-balances",
   },
   {
     id: 7,
     image: Photo2,
-    tag: "App Project",
-    skill: "HTML TailwindCss React",
-    title: "bnmdfkkk",
+    tag: "Web3 Project",
+    skill: "HTML TailwindCss Next",
+    title: "solana-token-balance",
     descr: "Minecraft server glitch Discord anti-crash bot Discord.",
     link: "#",
     github: "#",
@@ -281,11 +289,12 @@ export const webProjects2 = [
     id: 1,
     image: Photo2,
     tag: "DApp",
-    skill: "HTML TailwindCss React",
-    title: "ChertNodes",
-    descr: "Minecraft server glitch Discord anti-crash bot",
+    skill: "Solidity Foundry ChainLink Openzeppelin",
+    title: "OSE Stablecoin",
+    descr:
+      "This project is a stablecoin where users can deposit WETH and WBTC in exchange for a token that will be pegged to the USD.",
     link: "#",
-    github: "#",
+    github: "https://github.com/Patrick-Ehimen/OSE-StableCoin",
   },
   {
     id: 2,
@@ -312,8 +321,8 @@ export const webProjects2 = [
     image: Photo1,
     tag: "DApp Project",
     skill: "HTML TailwindCss React",
-    title: "cvgf",
-    descr: "Minecraft server glitch Discord anti-crash bot",
+    title: "jhdvkveh",
+    descr: "hfgjhkevjlbmskh",
     link: "#",
     github: "#",
   },
@@ -321,9 +330,10 @@ export const webProjects2 = [
     id: 5,
     image: Photo2,
     tag: "DApp Project",
-    skill: "HTML TailwindCss React",
-    title: "ChertNodes",
-    descr: "Minecraft server glitch Discord anti-crash bot",
+    skill: "Hardhat Solidity React",
+    title: "Decentralised-Bank",
+    descr:
+      "Decentralised Bank offers account creation, fund management, and security features for decentralized finance.",
     link: "#",
     github: "#",
   },
@@ -332,38 +342,38 @@ export const webProjects2 = [
 export const project1 = [
   {
     id: 1,
-    name: "Streamvibe WebApp",
-  },
-  {
-    id: 2,
-    name: "NFTMarketPlace",
-  },
-  {
-    id: 3,
     name: "CryptoWhale DApp",
   },
   {
+    id: 2,
+    name: "Streamvibe App ",
+  },
+  {
+    id: 3,
+    name: "NFTMarketPlace",
+  },
+  {
     id: 4,
-    name: "Multihain DApp",
+    name: "Swift Blockchain",
   },
   {
     id: 5,
-    name: "Similar Projects",
+    name: "Pizza Resturant",
   },
   {
     id: 6,
-    name: "Similar Projects",
+    name: "erc20-token-bal",
   },
   {
     id: 7,
-    name: "Similar Projects",
+    name: "solana-token-bal",
   },
 ];
 
 export const project2 = [
   {
     id: 1,
-    name: "Streamvibe WebApp",
+    name: "OSE stablecoin",
   },
   {
     id: 2,
@@ -379,6 +389,6 @@ export const project2 = [
   },
   {
     id: 5,
-    name: "Similar Projects",
+    name: "Decentra-Bank",
   },
 ];
