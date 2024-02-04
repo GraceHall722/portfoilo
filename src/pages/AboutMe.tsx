@@ -95,10 +95,10 @@ const Home = () => {
           {skills.map((skill, index) => (
             <div
               key={skill.id}
-              className={`border border-[#64FFDB] mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95
+              className={`border border-[#227b59] mt-[20px] w-9/12 transform transition duration-500 ease-in-out hover:scale-95
                  ${index === 0 ? "ml-[10px]" : ""}`}
             >
-              <div className="border border--[#64FFDB]">
+              <div className="border border-[#227b59]">
                 <h2 className="text-white m-[20px] text-[25px]">
                   {skill.title}
                 </h2>
