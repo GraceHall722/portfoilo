@@ -38,7 +38,7 @@ export const homeProjects = [
     id: 1,
     image: CryptoDashboard,
     skill: "Next.js TailwindCss Typescript AlchemyAPI",
-    title: "ChertNodes",
+    title: "CryptoDashboard",
     descr:
       "A web3 dashboard that aggregates all user portfolio values in real time.",
     link: "#",
