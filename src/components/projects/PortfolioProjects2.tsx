@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FiExternalLink, FiGithub } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 import { project2, webProjects2 } from "../../constants";
@@ -7,7 +7,6 @@ import { project2, webProjects2 } from "../../constants";
 const PortfolioProjects2 = () => {
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
   const [isHoveredGithub, setIsHoveredGithub] = useState(false);
-  const [isHoveredLink, setIsHoveredLink] = useState(false);
 
   const handleClick = (index: number) => {
     setSelectedProjectIndex(index);
@@ -61,11 +60,11 @@ const PortfolioProjects2 = () => {
                 className="md1:w-96 w-72 rounded border-2 border-[#f6cb49]"
               />
               <div className="absolute inset-0 bg-[#122e3f] opacity-50 backdrop-blur-md hover:opacity-0 transition duration-500 md1:w-96 ssm:w-72 ss:w-[288px] ssl:w-[288px] "></div>
-              <p className="absolute text-[14px] md1:w-[360px] w-[180px] bg-[#112240] p-[20px] rounded md1:mx-[65px] text-[#B6C1E0] md1:-mt-[80px] -mt-[40px] md1:h-[150px] mx-[35px]">
+              <p className="absolute text-[14px] md1:w-[360px] w-[210px] bg-[#112240] p-[20px] rounded md1:mx-[65px] text-[#B6C1E0] md1:-mt-[80px] lg:-mt-[50px] -mt-[70px] lg:h-[100px] md1:h-[150px] mx-[35px]">
                 {webProjects2[selectedProjectIndex].descr}
               </p>
             </div>
-            <div className="flex mt-[100px] md1:ml-[220px] ml-[100px]">
+            <div className="flex mt-[120px] lg:mt-[80px] md1:ml-[220px] ml-[100px]">
               <div className="px-[5px] cursor-pointer">
                 <Link to={webProjects2[selectedProjectIndex].github}>
                   <FiGithub
@@ -73,16 +72,6 @@ const PortfolioProjects2 = () => {
                     color={isHoveredGithub ? "#f6cb49" : "#CCD6F6"}
                     onMouseEnter={() => setIsHoveredGithub(true)}
                     onMouseLeave={() => setIsHoveredGithub(false)}
-                  />
-                </Link>
-              </div>
-              <div className="px-[5px] cursor-pointer">
-                <Link to={webProjects2[selectedProjectIndex].link}>
-                  <FiExternalLink
-                    size={24}
-                    color={isHoveredLink ? "#f6cb49" : "#CCD6F6"}
-                    onMouseEnter={() => setIsHoveredLink(true)}
-                    onMouseLeave={() => setIsHoveredLink(false)}
                   />
                 </Link>
               </div>
