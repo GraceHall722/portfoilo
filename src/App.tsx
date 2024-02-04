@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Home, AboutMe, Portfolio, ContactMe } from "./pages";
 
 import { Navbar, Footer } from "./components";
@@ -23,7 +23,7 @@ const App = () => {
       </div>
 
       <Footer />
-
+      <SpeedInsights />
     </div>
   );
 };
