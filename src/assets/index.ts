@@ -21,6 +21,8 @@ import Pizza from "./Pizza.png";
 import Container from "./Container.svg";
 import streamvibe from "./streamvibe.png";
 import CryptoDashboard from "./CryptoDashboard.png";
+import Swift from "./swift.png";
+import WalletBalance from "./walletBalance.png";
 
 export {
   Logo,
@@ -46,4 +48,6 @@ export {
   Container,
   streamvibe,
   CryptoDashboard,
+  Swift,
+  WalletBalance,
 };
