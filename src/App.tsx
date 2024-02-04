@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+
 import { Home, AboutMe, Portfolio, ContactMe } from "./pages";
 
 import { Navbar, Footer } from "./components";
@@ -22,6 +23,7 @@ const App = () => {
       </div>
 
       <Footer />
+
     </div>
   );
 };
