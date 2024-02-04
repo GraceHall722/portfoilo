@@ -38,7 +38,7 @@ export const homeProjects = [
     id: 1,
     image: CryptoDashboard,
     skill: "Next.js TailwindCss Typescript AlchemyAPI",
-    title: "CryptoDashboard",
+    title: "Crypto- Dashboard",
     descr:
       "A web3 dashboard that aggregates all user portfolio values in real time.",
     link: "#",
@@ -226,7 +226,8 @@ export const webProjects = [
     tag: "DApp Project",
     skill: "HTML TailwindCss React",
     title: "sgdhfjf",
-    descr: "Minecraft server glitch Discord anti-crash bot",
+    descr:
+      "A web3 dashboard that aggregates all user portfolio values in real time. Minecraft server glitch Discord.",
     link: "#",
     github: "#",
   },
@@ -248,7 +249,7 @@ export const webProjects = [
     skill: "CSS React Javascript",
     title: "Pizza Resturant",
     descr:
-      "With this app users can place an order for thier favourite pizza. A user can also choose to add a priority fee to hasten the delivery time.",
+      "With this app users can place an order for thier favourite pizza. User can also choose to add a priority fee to hasten the delivery time.",
     link: "https://pizza-resturant-mu.vercel.app/",
     github: "https://github.com/Patrick-Ehimen/PizzaResturant",
   },
@@ -259,7 +260,7 @@ export const webProjects = [
     skill: "CSS Javascript Next Moralis",
     title: "erc20-token-balances",
     descr:
-      "A simple UI used to interact and read data from the blockchain. With this DAoo users can find the balance of any ERC20 token.",
+      "A simple UI used to interact and read data from the blockchain. With this DApp users can find the balance of any ERC20 token.",
     link: "https://wallet-token-balances.vercel.app/",
     github: "https://github.com/Patrick-Ehimen/wallet-token-balances",
   },
@@ -269,7 +270,8 @@ export const webProjects = [
     tag: "Web3 Project",
     skill: "HTML TailwindCss Next",
     title: "solana-token-balance",
-    descr: "Minecraft server glitch Discord anti-crash bot Discord.",
+    descr:
+      "A simple UI used to read data from the solana blockchain. With this DApp users can find the balance of any sol token.",
     link: "#",
     github: "#",
   },
@@ -302,7 +304,8 @@ export const webProjects2 = [
     tag: "DApp",
     skill: "HTML TailwindCss React",
     title: "ABCDEF",
-    descr: "Minecraft server glitch Discord anti-crash bot",
+    descr:
+      "This project is a stablecoin where users can deposit WETH and WBTC in exchange for a token that will be pegged to the USD.",
     link: "#",
     github: "#",
   },
@@ -312,7 +315,8 @@ export const webProjects2 = [
     tag: "DApp Project",
     skill: "HTML TailwindCss React",
     title: "sgdhfjf",
-    descr: "Minecraft server glitch Discord anti-crash bot",
+    descr:
+      "This project is a stablecoin where users can deposit WETH and WBTC in exchange for a token that will be pegged to the USD.",
     link: "#",
     github: "#",
   },
@@ -322,7 +326,8 @@ export const webProjects2 = [
     tag: "DApp Project",
     skill: "HTML TailwindCss React",
     title: "jhdvkveh",
-    descr: "hfgjhkevjlbmskh",
+    descr:
+      "This project is a stablecoin where users can deposit WETH and WBTC in exchange for a token that will be pegged to the USD.",
     link: "#",
     github: "#",
   },
