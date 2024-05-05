@@ -23,6 +23,7 @@ import streamvibe from "./streamvibe.png";
 import CryptoDashboard from "./CryptoDashboard.png";
 import Swift from "./swift.png";
 import WalletBalance from "./walletBalance.png";
+import Travel from "./Travel.png";
 
 export {
   Logo,
@@ -50,4 +51,5 @@ export {
   CryptoDashboard,
   Swift,
   WalletBalance,
+  Travel,
 };
