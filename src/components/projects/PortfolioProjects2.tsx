@@ -66,7 +66,10 @@ const PortfolioProjects2 = () => {
             </div>
             <div className="flex mt-[120px] lg:mt-[80px] md1:ml-[220px] ml-[100px]">
               <div className="px-[5px] cursor-pointer">
-                <Link to={webProjects2[selectedProjectIndex].github}>
+                <Link
+                  to={webProjects2[selectedProjectIndex].github}
+                  target="_blank"
+                >
                   <FiGithub
                     size={24}
                     color={isHoveredGithub ? "#f6cb49" : "#CCD6F6"}

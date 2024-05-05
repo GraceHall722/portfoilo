@@ -8,6 +8,7 @@ import {
   CryptoDashboard,
   Swift,
   WalletBalance,
+  Travel,
 } from "../assets";
 
 export const navlinks = [
@@ -40,7 +41,7 @@ export const homeProjects = [
     skill: "Next.js TailwindCss Typescript AlchemyAPI",
     title: "Crypto- Dashboard",
     descr:
-      "A web3 dashboard that aggregates all user portfolio values in real time.",
+      "A web3 dashboard that aggregates all user wallet values in real time.",
     link: "#",
   },
   {
@@ -233,14 +234,14 @@ export const webProjects = [
   },
   {
     id: 4,
-    image: Swift,
-    tag: "DApp Project",
-    skill: "TailwindCss React Javascript Figma",
-    title: "Swift Blockchain LandingPage",
+    image: Travel,
+    tag: "Web App",
+    skill: "TailwindCss React Javascript",
+    title: "Travel Journal",
     descr:
-      "A simple langing page for a Blockchain network. Built with Javascript+React and styled with tailwindcss.",
+      "This project is a web app, designed to track and display cities and countries that a user has visited. It features a dynamic map, authentication, and a responsive design.",
     link: "https://m2e-landing-page.vercel.app/",
-    github: "https://github.com/Patrick-Ehimen/m2e-landing-page",
+    github: "https://github.com/Patrick-Ehimen/travel-journal",
   },
   {
     id: 5,
@@ -255,6 +256,17 @@ export const webProjects = [
   },
   {
     id: 6,
+    image: Swift,
+    tag: "DApp Project",
+    skill: "TailwindCss React Javascript Figma",
+    title: "Swift Blockchain LandingPage",
+    descr:
+      "A simple langing page for a Blockchain network. Built with Javascript+React and styled with tailwindcss.",
+    link: "https://m2e-landing-page.vercel.app/",
+    github: "https://github.com/Patrick-Ehimen/m2e-landing-page",
+  },
+  {
+    id: 7,
     image: WalletBalance,
     tag: "Web3 Project",
     skill: "CSS Javascript Next Moralis",
@@ -265,7 +277,7 @@ export const webProjects = [
     github: "https://github.com/Patrick-Ehimen/wallet-token-balances",
   },
   {
-    id: 7,
+    id: 8,
     image: Photo2,
     tag: "Web3 Project",
     skill: "HTML TailwindCss Next",
@@ -276,7 +288,16 @@ export const webProjects = [
     github: "#",
   },
   {
-    id: 8,
+    id: 9,
+    image: Photo2,
+    skill: "HTML TailwindCss React",
+    title: "bnmdfasdffvkkk",
+    descr: "Minecraft server glitch Discord anti-crash bot",
+    link: "#",
+    github: "#",
+  },
+  {
+    id: 10,
     image: Photo2,
     skill: "HTML TailwindCss React",
     title: "bnmdfasdffvkkk",
@@ -325,7 +346,7 @@ export const webProjects2 = [
     image: Photo1,
     tag: "DApp Project",
     skill: "HTML TailwindCss React",
-    title: "jhdvkveh",
+    title: "Travel  journal",
     descr:
       "This project is a stablecoin where users can deposit WETH and WBTC in exchange for a token that will be pegged to the USD.",
     link: "#",
@@ -359,7 +380,7 @@ export const project1 = [
   },
   {
     id: 4,
-    name: "Swift Blockchain",
+    name: "Travel Journal",
   },
   {
     id: 5,
@@ -367,11 +388,23 @@ export const project1 = [
   },
   {
     id: 6,
-    name: "erc20-token-bal",
+    name: "Swift Blockchain ",
   },
   {
     id: 7,
+    name: "erc20-token-bal",
+  },
+  {
+    id: 8,
     name: "solana-token-bal",
+  },
+  {
+    id: 9,
+    name: "Decentra-Bank",
+  },
+  {
+    id: 10,
+    name: "Multihain DApp",
   },
 ];
 

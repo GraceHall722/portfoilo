@@ -73,7 +73,10 @@ const PortfolioProjects1 = () => {
                 } flex mt-[110px] md1:ml-[220px] ml-[100px]`}
               >
                 <div className="px-[5px] cursor-pointer">
-                  <Link to={webProjects[selectedProjectIndex].github}>
+                  <Link
+                    to={webProjects[selectedProjectIndex].github}
+                    target="_blank"
+                  >
                     <FiGithub
                       size={24}
                       color={isHoveredGithub ? "#64FFDB" : "#CCD6F6"}
@@ -83,7 +86,10 @@ const PortfolioProjects1 = () => {
                   </Link>
                 </div>
                 <div className="px-[5px] cursor-pointer">
-                  <Link to={webProjects[selectedProjectIndex].link}>
+                  <Link
+                    to={webProjects[selectedProjectIndex].link}
+                    target="_blank"
+                  >
                     <FiExternalLink
                       size={24}
                       color={isHoveredLink ? "#64FFDB" : "#CCD6F6"}
