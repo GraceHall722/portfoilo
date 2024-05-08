@@ -106,12 +106,13 @@ export const skills = [
   {
     id: 2,
     title: "Web3 Tooling",
-    skillBody: "Ethers.js Web3.js Anchor-CLI Thirdweb Foundry Hardhat",
+    skillBody:
+      "Ethers.js Web3.js Anchor-CLI Thirdweb Alchemy-APIs Foundry Hardhat",
   },
   {
     id: 3,
     title: "Framework/ Library",
-    skillBody: "Next.js React.js TailwindCSS Vue.js",
+    skillBody: "Next.js React.js TailwindCSS Vue.js ShadcnUI Bootstrap",
   },
   {
     id: 4,
@@ -122,7 +123,7 @@ export const skills = [
   {
     id: 5,
     title: "Others",
-    skillBody: "Figma Git GraphQL Node.js, Russian asdfgh",
+    skillBody: "Figma Git GraphQL Subgraphs Node.js ",
   },
 ];
 
@@ -168,6 +169,10 @@ export const tech1 = [
     id: 8,
     title: "IPFS",
   },
+  {
+    id: 9,
+    title: "Redux",
+  },
 ];
 
 export const tech2 = [
@@ -195,6 +200,14 @@ export const tech2 = [
     id: 6,
     title: "Figma",
   },
+  {
+    id: 7,
+    title: "Subgraphs",
+  },
+  {
+    id: 8,
+    title: "Alchemy APIs",
+  },
 ];
 
 export const webProjects = [
@@ -202,10 +215,10 @@ export const webProjects = [
     id: 1,
     image: CryptoDashboard,
     tag: "DApp",
-    skill: "Next TailwindCss TailwindCss Ethers Subgraphs AlchemyAPI Figma",
+    skill: "ReatJs TailwindCss 0xAPI IPFS Ethers AlchemyAPI Figma",
     title: "PortRadar DApp",
     descr:
-      "A web3 dashboard that aggregates all user portfolio values in real time. The DApp also aggregates relevant crypto data such as news, token prices, etc into clean UI.",
+      "A web3 dashboard that aggregates all user portfolio values in real time. The DApp also aggregates relevant crypto data such as news, token prices, into clean UI.",
     link: "#",
     github: "https://github.com/Patrick-Ehimen/PortRadar",
   },
@@ -214,7 +227,7 @@ export const webProjects = [
     id: 2,
     image: Photo2,
     tag: "DApp Project",
-    skill: "HTML TailwindCss React",
+    skill: "Styled-Components React React-Query ",
     title: "The Wild Oasis",
     descr:
       "A Hotel management app - A React web application that allows hotel employees to manage cabins, bookings, and guests.",
@@ -260,20 +273,19 @@ export const webProjects2 = [
   {
     id: 1,
     image: Photo2,
-    tag: "DApp",
-    skill: "Solidity Foundry ChainLink Openzeppelin",
-    title: "OSE Stablecoin",
-    descr:
-      "This project is a stablecoin where users can deposit WETH and WBTC in exchange for a token that will be pegged to the USD.",
+    tag: "Smart Contract",
+    skill: "Solidity Foundry Uniswap-V4 Openzeppelin",
+    title: "Uniswap-v4-tp-hook",
+    descr: "A fully on-chain 'take-profit' order built with uniswap v4 hook",
     link: "#",
-    github: "https://github.com/Patrick-Ehimen/OSE-StableCoin",
+    github: "https://github.com/Patrick-Ehimen/uniswap-v4-tp-hook",
   },
   {
     id: 2,
     image: Pizza,
-    tag: "DApp",
-    skill: "HTML TailwindCss React",
-    title: "ABCDEF",
+    tag: "Smart Contract",
+    skill: "Solidty Hardhat",
+    title: "Merkle Distributor Airdrop",
     descr:
       "This project is a stablecoin where users can deposit WETH and WBTC in exchange for a token that will be pegged to the USD.",
     link: "#",
@@ -282,35 +294,24 @@ export const webProjects2 = [
   {
     id: 3,
     image: Photo2,
-    tag: "DApp Project",
-    skill: "HTML TailwindCss React",
-    title: "sgdhfjf",
+    tag: "Smart Contract",
+    skill: "Solidity Foundry Uniswap-V2",
+    title: "UniswapV2 flashloan",
     descr:
-      "This project is a stablecoin where users can deposit WETH and WBTC in exchange for a token that will be pegged to the USD.",
+      "This is a flashloan contract that is build on UniswapV2. You can borrow x token from a transaction pair, but repay with y token.",
     link: "#",
-    github: "#",
+    github: "https://github.com/Patrick-Ehimen/uniswapV2-flashSwap",
   },
   {
     id: 4,
-    image: Photo1,
-    tag: "DApp Project",
-    skill: "HTML TailwindCss React",
-    title: "Travel  journal",
-    descr:
-      "This project is a stablecoin where users can deposit WETH and WBTC in exchange for a token that will be pegged to the USD.",
-    link: "#",
-    github: "#",
-  },
-  {
-    id: 5,
     image: Photo2,
-    tag: "DApp Project",
-    skill: "Hardhat Solidity React",
+    tag: "Smart Contract",
+    skill: "Foundry Solidity Polygon",
     title: "Decentralised-Bank",
     descr:
       "Decentralised Bank offers account creation, fund management, and security features for decentralized finance.",
     link: "#",
-    github: "#",
+    github: "https://github.com/Patrick-Ehimen/BankingDApp__Foundry",
   },
 ];
 
@@ -340,22 +341,18 @@ export const project1 = [
 export const project2 = [
   {
     id: 1,
-    name: "OSE stablecoin",
+    name: "uniswapV4-tp-hook",
   },
   {
     id: 2,
-    name: "NFTMarketPlace",
+    name: "Merkle Airdrop",
   },
   {
     id: 3,
-    name: "CryptoWhale DApp",
+    name: "UniV2 flashloan",
   },
   {
     id: 4,
-    name: "Multihain DApp",
-  },
-  {
-    id: 5,
     name: "Decentra-Bank",
   },
 ];
