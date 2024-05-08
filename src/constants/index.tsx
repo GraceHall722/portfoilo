@@ -1,5 +1,4 @@
 import {
-  Photo1,
   Photo2,
   Telegram,
   Email,
