@@ -216,7 +216,7 @@ export const webProjects = [
     image: CryptoDashboard,
     tag: "DApp",
     skill: "ReatJs TailwindCss 0xAPI IPFS Ethers AlchemyAPI Figma",
-    title: "PortRadar DApp",
+    title: "PortRadar DApp (Under Development)",
     descr:
       "A web3 dashboard that aggregates all user portfolio values in real time. The DApp also aggregates relevant crypto data such as news, token prices, into clean UI.",
     link: "#",
