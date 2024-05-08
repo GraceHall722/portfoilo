@@ -23,18 +23,17 @@ const ContactMe = () => {
               Reach out to me!
             </div>
 
-            <p className="my-[10px] text-[#939ba8]">
-              I’m not currently looking for any new opportunities, my inbox is
-              always open.
+            <div className="my-[10px] text-[#939ba8]">
+              I’m currently looking for new and exicting opportunities, so feel
+              free to send a DM, my inbox is always open.
               {/* <br className="hidden md:flex" /> */}
-              I’m also interested in freelance opportunities.
               <br className="" />
               <p className="my-[20px]">
                 {" "}
-                However, if you have other request or question, don’t hesitate
-                to contact me.
+                However, if you also have other requests or questions, don’t
+                hesitate to contact me.
               </p>
-            </p>
+            </div>
           </div>
 
           <div className="relative ml-[150px] lg:hidden hidden md:flex flex-col md:mt-[30px] md1:mt-[30px]  border h-[150px] px-5 w-max border-[#FFBF00]">
@@ -43,7 +42,11 @@ const ContactMe = () => {
                 <h3 className="text-white text-[20px] mb-[20px] py-[10px]">
                   {item.title}
                 </h3>
-                <Link to={"#"} className="flex ml-[5px]">
+                <Link
+                  to="https://t.me/OxOseeth"
+                  className="flex ml-[5px]"
+                  target="_blank"
+                >
                   <img src={item.icon1} alt="Icon 1" />
                   <h3 className="px-[5px] text-white">OxOseeth</h3>
                 </Link>
@@ -67,7 +70,11 @@ const ContactMe = () => {
               <h3 className="text-white text-[20px] mb-[20px] py-[10px]">
                 {item.title}
               </h3>
-              <Link to={"#"} className="flex ml-[5px]">
+              <Link
+                to="https://t.me/OxOseeth"
+                className="flex ml-[5px]"
+                target="_blank"
+              >
                 <img src={item.icon1} alt="Icon 1" />
                 <h3 className="px-[5px] text-white">OxOseeth</h3>
               </Link>
