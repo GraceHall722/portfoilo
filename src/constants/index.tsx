@@ -6,7 +6,6 @@ import {
   Pizza,
   streamvibe,
   CryptoDashboard,
-  Swift,
   WalletBalance,
   Travel,
 } from "../assets";
