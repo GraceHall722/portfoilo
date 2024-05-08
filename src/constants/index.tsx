@@ -204,47 +204,37 @@ export const webProjects = [
     image: CryptoDashboard,
     tag: "DApp",
     skill: "Next TailwindCss TailwindCss Ethers Subgraphs AlchemyAPI Figma",
-    title: "CryptoDashboard",
+    title: "PortRadar DApp",
     descr:
       "A web3 dashboard that aggregates all user portfolio values in real time. The DApp also aggregates relevant crypto data such as news, token prices, etc into clean UI.",
     link: "#",
-    github: "#",
+    github: "https://github.com/Patrick-Ehimen/PortRadar",
   },
+
   {
     id: 2,
-    image: streamvibe,
-    tag: "WebApp Project",
-    skill: "HTML TailwindCss React Figma Typescript",
-    title: "Streamvibe Movie WebApp ",
-    descr:
-      "A Movie Streaming WebApp. Built with Typescxript and React, using Api to fetch movie data. StreamVibe is the best streaming experience for watching your favorite movies.",
-    link: "#",
-    github: "https://github.com/Patrick-Ehimen/streamvibes-movies-app",
-  },
-  {
-    id: 3,
     image: Photo2,
     tag: "DApp Project",
     skill: "HTML TailwindCss React",
-    title: "sgdhfjf",
+    title: "The Wild Oasis",
     descr:
-      "A web3 dashboard that aggregates all user portfolio values in real time. Minecraft server glitch Discord.",
-    link: "#",
-    github: "#",
+      "A Hotel management app - A React web application that allows hotel employees to manage cabins, bookings, and guests.",
+    link: "the-wild-oasis-zeta-coral.vercel.app/",
+    github: "https://github.com/Patrick-Ehimen/the-wild-oasis",
   },
   {
-    id: 4,
+    id: 3,
     image: Travel,
     tag: "Web App",
     skill: "TailwindCss React Javascript",
     title: "Travel Journal",
     descr:
       "This project is a web app, designed to track and display cities and countries that a user has visited. It features a dynamic map, authentication, and a responsive design.",
-    link: "https://m2e-landing-page.vercel.app/",
+    link: "travel-journal-nu.vercel.app/",
     github: "https://github.com/Patrick-Ehimen/travel-journal",
   },
   {
-    id: 5,
+    id: 4,
     image: Pizza,
     tag: "WebApp Project",
     skill: "CSS React Javascript",
@@ -255,18 +245,7 @@ export const webProjects = [
     github: "https://github.com/Patrick-Ehimen/PizzaResturant",
   },
   {
-    id: 6,
-    image: Swift,
-    tag: "DApp Project",
-    skill: "TailwindCss React Javascript Figma",
-    title: "Swift Blockchain LandingPage",
-    descr:
-      "A simple langing page for a Blockchain network. Built with Javascript+React and styled with tailwindcss.",
-    link: "https://m2e-landing-page.vercel.app/",
-    github: "https://github.com/Patrick-Ehimen/m2e-landing-page",
-  },
-  {
-    id: 7,
+    id: 5,
     image: WalletBalance,
     tag: "Web3 Project",
     skill: "CSS Javascript Next Moralis",
@@ -275,35 +254,6 @@ export const webProjects = [
       "A simple UI used to interact and read data from the blockchain. With this DApp users can find the balance of any ERC20 token.",
     link: "https://wallet-token-balances.vercel.app/",
     github: "https://github.com/Patrick-Ehimen/wallet-token-balances",
-  },
-  {
-    id: 8,
-    image: Photo2,
-    tag: "Web3 Project",
-    skill: "HTML TailwindCss Next",
-    title: "solana-token-balance",
-    descr:
-      "A simple UI used to read data from the solana blockchain. With this DApp users can find the balance of any sol token.",
-    link: "#",
-    github: "#",
-  },
-  {
-    id: 9,
-    image: Photo2,
-    skill: "HTML TailwindCss React",
-    title: "bnmdfasdffvkkk",
-    descr: "Minecraft server glitch Discord anti-crash bot",
-    link: "#",
-    github: "#",
-  },
-  {
-    id: 10,
-    image: Photo2,
-    skill: "HTML TailwindCss React",
-    title: "bnmdfasdffvkkk",
-    descr: "Minecraft server glitch Discord anti-crash bot",
-    link: "#",
-    github: "#",
   },
 ];
 
@@ -368,43 +318,23 @@ export const webProjects2 = [
 export const project1 = [
   {
     id: 1,
-    name: "CryptoWhale DApp",
+    name: "PortRadar DApp",
   },
   {
     id: 2,
-    name: "Streamvibe App ",
+    name: "The Wild Oasis",
   },
   {
     id: 3,
-    name: "NFTMarketPlace",
-  },
-  {
-    id: 4,
     name: "Travel Journal",
   },
   {
-    id: 5,
+    id: 4,
     name: "Pizza Resturant",
   },
   {
-    id: 6,
-    name: "Swift Blockchain ",
-  },
-  {
-    id: 7,
+    id: 5,
     name: "erc20-token-bal",
-  },
-  {
-    id: 8,
-    name: "solana-token-bal",
-  },
-  {
-    id: 9,
-    name: "Decentra-Bank",
-  },
-  {
-    id: 10,
-    name: "Multihain DApp",
   },
 ];
 
