@@ -218,7 +218,7 @@ export const webProjects = [
     title: "The Wild Oasis",
     descr:
       "A Hotel management app - A React web application that allows hotel employees to manage cabins, bookings, and guests.",
-    link: "the-wild-oasis-zeta-coral.vercel.app/",
+    link: "https://the-wild-oasis-zeta-coral.vercel.app/",
     github: "https://github.com/Patrick-Ehimen/the-wild-oasis",
   },
   {
@@ -229,7 +229,7 @@ export const webProjects = [
     title: "Travel Journal",
     descr:
       "This project is a web app, designed to track and display cities and countries that a user has visited. It features a dynamic map, authentication, and a responsive design.",
-    link: "travel-journal-nu.vercel.app/",
+    link: "https://travel-journal-nu.vercel.app/",
     github: "https://github.com/Patrick-Ehimen/travel-journal",
   },
   {
