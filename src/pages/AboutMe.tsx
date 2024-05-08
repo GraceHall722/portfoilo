@@ -39,7 +39,7 @@ const Home = () => {
               <br className="hidden md:flex" />
             </p>
             <p className="my-[10px] text-[#939ba8]">
-              Here are a few technologies I’ve been working with recently:
+              Here are a few technologies I’ve worked with recently:
             </p>
             <div className="flex flex-row space-x-8 text-[15px] mt-[5px] text-[#939ba8]">
               <div className="flex flex-col">
