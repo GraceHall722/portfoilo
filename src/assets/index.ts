@@ -24,6 +24,10 @@ import CryptoDashboard from "./CryptoDashboard.png";
 import Swift from "./swift.png";
 import WalletBalance from "./walletBalance.png";
 import Travel from "./Travel.png";
+import imgg1 from "./imgg1.png";
+import imgg2 from "./imgg2.png";
+import imgg3 from "./imgg3.png";
+import imgg4 from "./imgg4.png";
 
 export {
   Logo,
@@ -52,4 +56,8 @@ export {
   Swift,
   WalletBalance,
   Travel,
+  imgg1,
+  imgg2,
+  imgg3,
+  imgg4,
 };
