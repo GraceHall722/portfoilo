@@ -7,6 +7,10 @@ import {
   CryptoDashboard,
   WalletBalance,
   Travel,
+  imgg1,
+  imgg2,
+  imgg3,
+  imgg4,
 } from "../assets";
 
 export const navlinks = [
@@ -271,17 +275,18 @@ export const webProjects = [
 export const webProjects2 = [
   {
     id: 1,
-    image: Photo2,
+    image: imgg1,
     tag: "Smart Contract",
     skill: "Solidity Foundry Uniswap-V4 Openzeppelin",
     title: "Uniswap-v4-tp-hook",
-    descr: "A fully on-chain 'take-profit' order built with uniswap v4 hook",
+    descr:
+      "This project demonstrates the implementation of a 'take-profit' orders hook for Uniswap v4. ",
     link: "#",
     github: "https://github.com/Patrick-Ehimen/uniswap-v4-tp-hook",
   },
   {
     id: 2,
-    image: Pizza,
+    image: imgg2,
     tag: "Smart Contract",
     skill: "Solidty Hardhat",
     title: "Merkle Distributor Airdrop",
@@ -292,7 +297,7 @@ export const webProjects2 = [
   },
   {
     id: 3,
-    image: Photo2,
+    image: imgg3,
     tag: "Smart Contract",
     skill: "Solidity Foundry Uniswap-V2",
     title: "UniswapV2 flashloan",
@@ -303,7 +308,7 @@ export const webProjects2 = [
   },
   {
     id: 4,
-    image: Photo2,
+    image: imgg4,
     tag: "Smart Contract",
     skill: "Foundry Solidity Polygon",
     title: "Decentralised-Bank",
