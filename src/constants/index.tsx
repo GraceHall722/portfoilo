@@ -11,6 +11,7 @@ import {
   imgg2,
   imgg3,
   imgg4,
+  PortR,
 } from "../assets";
 
 export const navlinks = [
@@ -216,7 +217,7 @@ export const tech2 = [
 export const webProjects = [
   {
     id: 1,
-    image: CryptoDashboard,
+    image: PortR,
     tag: "DApp",
     skill: "ReatJs TailwindCss 0xAPI IPFS Ethers AlchemyAPI Figma",
     title: "PortRadar DApp (Under Development)",
@@ -293,7 +294,7 @@ export const webProjects2 = [
     descr:
       "This project is a stablecoin where users can deposit WETH and WBTC in exchange for a token that will be pegged to the USD.",
     link: "#",
-    github: "#",
+    github: "https://github.com/Patrick-Ehimen/merkle-airdrop",
   },
   {
     id: 3,
@@ -304,7 +305,7 @@ export const webProjects2 = [
     descr:
       "This is a flashloan contract that is build on UniswapV2. You can borrow x token from a transaction pair, but repay with y token.",
     link: "#",
-    github: "https://github.com/Patrick-Ehimen/uniswapV2-flashSwap",
+    github: "https://github.com/Patrick-Ehimen/uniswapV2-flashLoan",
   },
   {
     id: 4,
@@ -316,6 +317,28 @@ export const webProjects2 = [
       "Decentralised Bank offers account creation, fund management, and security features for decentralized finance.",
     link: "#",
     github: "https://github.com/Patrick-Ehimen/BankingDApp__Foundry",
+  },
+  {
+    id: 5,
+    image: imgg4,
+    tag: "Smart Contract",
+    skill: "Foundry Solidity",
+    title: "Esan-DAO",
+    descr:
+      "This project implements a decentralized governance system using Solidity and OpenZeppelin contracts.",
+    link: "#",
+    github: "https://github.com/Patrick-Ehimen/esan-DAO",
+  },
+  {
+    id: 6,
+    image: imgg1,
+    tag: "Smart Contract",
+    skill: "Hardhat Javascript Solidity",
+    title: "ERC20 Token",
+    descr:
+      "This is an ERC20 token that has been deployed across three EVM blockchains: Ethereum, Polygon, and Binance Smart Chain.",
+    link: "#",
+    github: "https://github.com/Patrick-Ehimen/ERC20-Token",
   },
 ];
 
@@ -358,5 +381,13 @@ export const project2 = [
   {
     id: 4,
     name: "Decentra-Bank",
+  },
+  {
+    id: 5,
+    name: "Esan-DAO",
+  },
+  {
+    id: 6,
+    name: "ERC20 Token",
   },
 ];
