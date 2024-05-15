@@ -28,6 +28,7 @@ import imgg1 from "./imgg1.png";
 import imgg2 from "./imgg2.png";
 import imgg3 from "./imgg3.png";
 import imgg4 from "./imgg4.png";
+import PortR from './PortR.png'
 
 export {
   Logo,
@@ -60,4 +61,5 @@ export {
   imgg2,
   imgg3,
   imgg4,
+  PortR
 };
