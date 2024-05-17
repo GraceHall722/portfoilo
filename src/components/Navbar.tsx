@@ -38,7 +38,6 @@ const Navbar = () => {
           </h3>
         </div>
       </NavLink>
-
       <div className="sm:flex hidden items-center justify-between mr-[150px] mt-[30px]">
         <ul className="flex text-textColor-1">
           {navlinks.map((link) => (
@@ -58,13 +57,13 @@ const Navbar = () => {
             </li>
           ))}
           <button className="border hidden md1:flex border-[#64FFDB] w-auto transform transition duration-500 ease-in-out hover:scale-110">
-            <a href={import.meta.env.VITE_APP_RESUME_LINK} target="blank">
+            {/* <a href={import.meta.env.VITE_APP_RESUME_LINK} target="blank"> */}
+            <a href="src/constants/0xOse.pdf" target="blank">
               <div className="mx-[20px] text-white">Resume</div>
             </a>
           </button>
         </ul>
       </div>
-
       {/* Responsive navigation items (for smaller screens) */}
       <div className="sm:hidden flex items-center flex-1 justify-end px-[20px]">
         <div
