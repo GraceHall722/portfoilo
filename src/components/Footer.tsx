@@ -51,7 +51,7 @@ const Footer = () => {
       >
         <div className="flex flex-col space-y-8 items-center justify-center">
           <div className="flex flex-col space-y-3 items-center justify-center">
-            <a href="src/constants/0x0se.pdf" download>
+            <a href={import.meta.env.VITE_APP_RESUME_LINK} target="blank">
               <div
                 style={{ writingMode: "vertical-rl" }}
                 className="font-fira-code text-[20px] text-[#CCD6F6] hover:text-[#64ffdb] transform transition duration-500 ease-in-out hover:scale-110"
