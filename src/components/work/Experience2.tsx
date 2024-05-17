@@ -23,8 +23,8 @@ const Experience2 = () => {
         <div className="flex w-10/12">
           <span className="text-[#64ffdb]">{">"}</span>
           <div className="mx-[10px] text-[#939BA8]">
-            Design, develop, and maintain highly responsive, visually appealing
-            web applications using TypeScript, React, and Next.js.
+            Designed, developed, and maintained highly responsive, visually
+            appealing web applications using TypeScript, React, and Next.js.
           </div>
         </div>
         <div className="flex w-10/12">

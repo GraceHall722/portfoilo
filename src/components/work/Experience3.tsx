@@ -22,20 +22,20 @@ const Experience3 = () => {
         <div className="flex w-10/12">
           <span className="text-[#64ffdb]">{">"}</span>
           <div className="mx-[10px] text-[#939BA8]">
-            Developing front-end interfaces and dashboards using React.
+            Developed front-end interfaces and dashboards using React.
           </div>
         </div>
         <div className="flex w-10/12">
           <span className="text-[#64ffdb]">{">"}</span>
           <div className="mx-[10px] text-[#939BA8]">
-            Conducting unit testing, integration testing, and end-to-end testing
+            Conducted unit testing, integration testing, and end-to-end testing
             to ensure high-quality code.
           </div>
         </div>
         <div className="flex w-10/12">
           <span className="text-[#64ffdb]">{">"}</span>
           <div className="mx-[10px] text-[#939BA8]">
-            Participating in code reviews, troubleshooting bugs, and providing
+            Participated in code reviews, troubleshooting bugs, and providing
             technical solutions to challenges.
           </div>
         </div>

@@ -18,8 +18,8 @@ const Experience1 = () => {
         <div className="flex w-10/12">
           <span className="text-[#64ffdb]">{">"}</span>
           <div className="mx-[10px] text-[#939BA8]">
-            Designed and developed reusable UI components which used in 3
-            different project with reducing development effort by 50%.
+            Designed and developed reusable UI components which was used in 3
+            different projects while reducing development effort by 50%.
           </div>
         </div>
         <div className="flex w-10/12">
