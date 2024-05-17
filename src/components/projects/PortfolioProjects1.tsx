@@ -67,7 +67,7 @@ const PortfolioProjects1 = () => {
               </div>
               <div
                 className={`${
-                  selectedProjectIndex === 0 || selectedProjectIndex === 1
+                  selectedProjectIndex === 0 || selectedProjectIndex === 2
                     ? "mt-[165px] md1:mt-[100px]"
                     : ""
                 } flex mt-[110px] md1:ml-[220px] ml-[100px]`}
