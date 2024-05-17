@@ -40,9 +40,9 @@ export const navlinks = [
 export const homeProjects = [
   {
     id: 1,
-    image: CryptoDashboard,
-    skill: "Next.js TailwindCss Typescript AlchemyAPI",
-    title: "Crypto- Dashboard",
+    image: PortR,
+    skill: "React.js TailwindCss Typescript AlchemyAPI Figma",
+    title: "Port-Radar",
     descr:
       "A web3 dashboard that aggregates all user wallet values in real time.",
     link: "#",
