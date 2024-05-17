@@ -49,7 +49,7 @@ const Home = () => {
               Blockchain development,secure smart contract design and DApp
               development.
               <br className="" />
-              Proficient in Ethereum and other blockchain networks.
+              Proficient in Ethereum (EVMs) and Solana blockchain networks.
             </p>
 
             <Link to="/contact-me">
@@ -73,12 +73,10 @@ const Home = () => {
 
           <div className="font-fira-code flex text-[#939ba8] ml-[5px] border my-2 mx-[20px]">
             <div className="w-8 h-8 bg-[#64ffdb] m-2 lg:m-[15px] xl:m-2"></div>
-            <div className="my-3 ml-2">
+            <div className="my-5 ml-2">
               Currently Working on{" "}
               <Link to={"#"}>
-                <span className="font-bold text-[#ffbf00]">
-                  CryptoDashboard
-                </span>
+                <span className="font-bold text-[#ffbf00]">Being Awesome</span>
               </Link>
             </div>
           </div>
