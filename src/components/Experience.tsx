@@ -61,7 +61,7 @@ const Experience = () => {
             activeButtonId === "chainlink" ? "bg-[#153041] text-[#64ffdb]" : ""
           }`}
         >
-          <div className="">Chainlink</div>{" "}
+          <div className="">BlockX</div>{" "}
         </button>
         {/* Button for the 'Tokenminds' experience */}
         <button
@@ -71,7 +71,7 @@ const Experience = () => {
             activeButtonId === "tokenminds" ? "bg-[#153041] text-[#64ffdb]" : ""
           }`}
         >
-          <div className="">Tokenminds</div>{" "}
+          <div className="">Cruize Finance</div>{" "}
         </button>
         {/* Button for the 'ALX Africa' experience */}
         <button

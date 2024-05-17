@@ -68,7 +68,7 @@ const HomeProject = () => {
             <img
               src={project.image}
               alt={project.title}
-              className={`w-full ${index === 0 ? "h-[200px]" : ""}`}
+              className={`w-full ${index === 0 ? "h-[]" : ""}`}
             />
             <div className="border border-[#575454] text-[#939BA8]">
               <p className="mx-[20px] py-[5px]">{project.skill}</p>
