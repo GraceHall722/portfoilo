@@ -4,7 +4,6 @@ import {
   Email,
   Pizza,
   streamvibe,
-  CryptoDashboard,
   WalletBalance,
   Travel,
   imgg1,
