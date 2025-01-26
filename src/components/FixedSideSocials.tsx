@@ -84,7 +84,7 @@ const FixedSideSocials = () => {
           >
             <Link
               target="_blanck"
-              to={"https://x.com/0xOse_eth"}
+              to={"https://x.com/0xOse_"}
               className="transform hover:scale-110"
               onMouseEnter={() => setIsHoveredTwitter(true)}
               onMouseLeave={() => setIsHoveredTwitter(false)}
