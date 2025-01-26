@@ -156,7 +156,7 @@ const Navbar = () => {
               >
                 <Link
                   target="_blanck"
-                  to={"https://twitter.com/Ose_eth"}
+                  to={"https://twitter.com/0xOse_"}
                   onMouseEnter={() => setIsHoveredTwitter(true)}
                   onMouseLeave={() => setIsHoveredTwitter(false)}
                 >
