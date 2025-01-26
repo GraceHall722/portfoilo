@@ -88,7 +88,7 @@ const Navbar = () => {
               </NavLink>
             ))}
             <button className="border bg-[#64FFDB] w-auto transform transition duration-500 ease-in-out hover:scale-110">
-              <a href="src/constants/0x0se.pdf" download>
+              <a href={import.meta.env.VITE_APP_RESUME_LINK} target="blank">
                 <div className="mx-[20px] text-[#0A192F]">Resume</div>
               </a>
             </button>
