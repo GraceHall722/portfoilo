@@ -35,7 +35,7 @@ const FixedSideSocials = () => {
               />
             </Link>
           </div>
-          <div
+          {/* <div
             style={{
               transform: isHoveredLinkedin ? "translateY(-5px)" : "none",
               transition: "transform 0.3s ease-in-out",
@@ -94,7 +94,7 @@ const FixedSideSocials = () => {
                 color={isHoveredTwitter ? "#64FFDB" : "#CCD6F6"}
               />
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

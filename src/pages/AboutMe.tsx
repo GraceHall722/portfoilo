@@ -18,7 +18,7 @@ const Home = () => {
             </div>
 
             <p className="my-[10px] text-[#939ba8]">
-              Hello! My name is Patrick and I enjoy creating things that live on
+              Hello! My name is Grace and I enjoy creating things that live on
               the blockhain.
               <br className="hidden md:flex" />
               I'm a <span className="text-[#64FFDB]">

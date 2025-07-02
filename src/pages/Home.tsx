@@ -15,7 +15,7 @@ const Home = () => {
               </h3>
             </div>
             <div className="text-white md:text-[50px] text-[35px]">
-              Patrick Ehimen.
+              Grace Hall.
             </div>
             <div className="md:text-[30px] text-[20px] text-[#939BA8]">
               I am a{" "}
@@ -84,7 +84,7 @@ const Home = () => {
 
         <FixedSideSocials />
       </section>
-      <Quote />
+      {/* <Quote /> */}
       <HomeProject />
     </div>
   );
