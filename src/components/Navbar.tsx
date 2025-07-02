@@ -56,11 +56,11 @@ const Navbar = () => {
               </NavLink>
             </li>
           ))}
-          <button className="border hidden md1:flex border-[#64FFDB] w-auto transform transition duration-500 ease-in-out hover:scale-110">
+          {/* <button className="border hidden md1:flex border-[#64FFDB] w-auto transform transition duration-500 ease-in-out hover:scale-110">
             <a href={import.meta.env.VITE_APP_RESUME_LINK} target="blank">
               <div className="mx-[20px] text-white">Resume</div>
             </a>
-          </button>
+          </button> */}
         </ul>
       </div>
       {/* Responsive navigation items (for smaller screens) */}
