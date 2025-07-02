@@ -1,15 +1,9 @@
-import { useState } from "react";
 import { FixedSideSocials } from "../components";
-import { Square, Discord } from "../assets";
+import { Square } from "../assets";
 import { contact } from "../constants";
-
 import { Link } from "react-router-dom";
-import { FaMediumM } from "react-icons/fa";
 
 const ContactMe = () => {
-  const [isHoveredDiscord, setIsHoveredDiscord] = useState(false);
-  const [isHoveredMedium, setIsHoveredMedium] = useState(false);
-
   return (
     <div>
       <section className="md:flex-row md:my-[150px] my-[50px] flex flex-col bg-[#0A192F]">
@@ -24,13 +18,13 @@ const ContactMe = () => {
             </div>
 
             <div className="my-[10px] text-[#939ba8]">
-              I’m currently looking for new and exicting opportunities, so feel
+              I'm currently looking for new and exicting opportunities, so feel
               free to send a DM, my inbox is always open.
               {/* <br className="hidden md:flex" /> */}
               <br className="" />
               <p className="my-[20px]">
                 {" "}
-                However, if you also have other requests or questions, don’t
+                However, if you also have other requests or questions, don't
                 hesitate to contact me.
               </p>
             </div>

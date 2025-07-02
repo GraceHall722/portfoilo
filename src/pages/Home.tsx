@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-router-dom";
-import { FixedSideSocials, Quote, HomeProject } from "../components";
+import { FixedSideSocials, HomeProject } from "../components";
 import { Dots, Img1, Image } from "../assets";
 
 const Home = () => {
