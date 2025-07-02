@@ -50,7 +50,7 @@ const ContactMe = () => {
                 >
                   <img src={item.icon2} alt="Icon 2" />
                   <h3 className="px-[5px] text-white">
-                    gracehall722@gmail.com
+                    @gmail.com
                   </h3>
                 </a>
               </div>
@@ -73,7 +73,6 @@ const ContactMe = () => {
                 <h3 className="px-[5px] text-white">OxOseeth</h3>
               </Link> */}
               <a
-                href="mailto:0xosepatrick.@gmail.com"
                 className="flex mt-[5px]"
               >
                 <img src={item.icon2} alt="Icon 2" />
